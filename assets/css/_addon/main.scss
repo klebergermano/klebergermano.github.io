@@ -187,8 +187,11 @@ $sidebar-display: "sidebar-display";
     a:hover, #mode-toggle-wrapper > i:hover {
       color: #fff;
     }
-
+    .icon-border{
+      display: none;
+    }
     #mode-toggle-wrapper {
+      display:none;
       i {
         @include sidebar-links;
         margin-right: 0;

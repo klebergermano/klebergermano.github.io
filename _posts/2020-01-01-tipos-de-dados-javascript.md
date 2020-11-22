@@ -2,23 +2,34 @@
 title: Tipos de dados Javascript
 
 date: 2019-08-08 02:00:00
-categories: [Blogging, Demo]
-tags: [javascript]
+categories: [Javascript]
+tags: [tipos primitivos, Tipo Objeto]
 math: true
 image: /assets/img/posts/tipos-de-dados-javascript.png
 ---
 
-Em Javascript ou qualquer outra linguagem temos a necessidade de armazenas e manipular dados/informação etc. Esses valores possuem "tipos" diferentes e no caso do javascript se divide em dois grupos os **Tipos Primitivos** e os **Objetos**.
+Em Javascript ou qualquer outra linguagem temos a necessidade de armazenas e manipular dados, informações, etc.
+Esses valores possuem os chamados "tipos", que são a categoria a qual uma informação pertence.
+
+Em JS dois grupos de tipos; os **Tipos Primitivos** e os **Objetos**.
 
 ## Tipos Primitivos
 
 Os Tipos Primitivos se dividem entre: <span>strings</span> (texto), <span>numbers</span> (numéricos), <span>booleans</span> (boleanos).
 
-Também existem dois tipo especiais, o <span>Null</span> e <span>Undefined</span> que são tipos “primitivos especiais” eles não tipos unicos da sua própria classificação.
+Alem desse três temos dois tipo especiais, o <span>Null</span> e <span>Undefined</span> que são tipos “Primitivos Especiais”.
+Os Primitivos Especiais são únicos na sua própria classificação.
 
-Pore xemplo, caso seja realizado um tyOff em undefined esse retornara “undefined”
+Para descobrir o tipo de uma informação em JS podemos usar o comando
 
-caso o mesmo teste seja feito em null esse retornara “object”, como o valor, e como o valor esperado é null isso é considerado um bug pela própria mozzila.
+```javascript
+typeof
+```
+
+Por xemplo, caso seja realizado um _typeof_ em qualquer texto, esse retornara como _string_.
+Já um _typeof_ no tipo _undefined_ retornara _undefined_
+
+no caso do null temos um bug onde caso seja realizado o teste esse retornara “object”.
 
 Input
 
@@ -27,18 +38,16 @@ console.log(typeof null); // Output: Object
 console.log(typeof undefined); // Output: undefined
 ```
 
-//(bug no ECMAScript, deveria ser null - http://2ality.com/2013/10/typeof-null.html)
-typeof null // object (bug no ECMAScript, deveria ser null - http://2ality.com/2013/10/typeof-null.html)
-typeof undefined // undefined
-null === undefined // falso
-null == undefined // verdadeiro
-
 ## Tipo Objeto
 
-Em Javascript todo valor que não seja um tipo primitivo comun ou especial é um Objeto, objetos podem ser considerados uma coleção de propriedades onde cada propriedade possui seu nome e valor.
-veja mais aqui: Objetos Javascript
+Em Javascript todo valor que não seja um tipo primitivo comun ou especial é um Objeto.
 
-Lista completa dos Tipos retornados por Typeof
+Objetos podem ser considerados uma coleção de propriedades onde cada propriedade possui seu nome e valor.
+saiba mais aqui: <a href='https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Objetos/B%C3%A1sico' target="_blank">Objetos Javascript</a>
+
+## Retornos do typeof
+
+Temos abaixo uma lista mais completa dos possiveis retornos de tipo, quando usado o <span>typeof</span>
 
 | Typeof                                                  |        Resultado         |
 | ------------------------------------------------------- | :----------------------: |
@@ -53,4 +62,4 @@ Lista completa dos Tipos retornados por Typeof
 | E4X XMLList object xml                                  |           xml            |
 | Outros Objetos                                          |          object          |
 
-- Null não é um objecto, seu retorno como object é considerado um bug pela Mozilla.
+- Null não é um _objeto_, seu retorno como object é considerado um bug pela Mozilla - [http://2ality.com/2013/10/typeof-null.html](http://2ality.com/2013/10/typeof-null.html)
