@@ -1,15 +1,14 @@
 ---
-title: Text and Typography
-author: Cotes Chung
+title: Tipos de dados Javascript
+
 date: 2019-08-08 11:33:00 +0800
 categories: [Blogging, Demo]
-tags: [typography]
+tags: [javascript]
 math: true
 image: /assets/img/sample/devices-mockup.png
 ---
 
 This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
-
 
 ## Titles
 
@@ -50,8 +49,9 @@ Fluttering and dancing in the breeze.
 ### Unordered list
 
 - item 1
-	- sub item 1
-	- sub item 2
+
+  - sub item 1
+  - sub item 2
 
 - item 2
 
@@ -62,20 +62,18 @@ Fluttering and dancing in the breeze.
 ## Tables
 
 | Company                      | contact          | Country |
-|:-----------------------------|:-----------------|--------:|
+| :--------------------------- | :--------------- | ------: |
 | Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    | UK      |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
+| Island Trading               | Helen Bennett    |      UK |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
 
 ## Link
 
 <http://127.0.0.1:4000>
 
-
 ## Footnote
 
 Click the hook will locate the footnote[^footnote].
-
 
 ## Images
 
@@ -92,7 +90,7 @@ _400px image width_
 In addition, you can use class `normal` , `left` and `right` to specify the image position (but in these case, the image caption is prohibited), for example:
 
 - Normal position
-  
+
   ![Desktop View](/assets/img/sample/mockup.png){: width="350" class="normal"}
 
 - Float to the left
@@ -113,7 +111,7 @@ This is an example of `Inline Code`.
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
-$$ \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
+$$ \sum\_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
 
 When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are
 
@@ -135,7 +133,6 @@ This is a common code snippet, without syntax highlight and line number.
 $ date
 Sun Nov  3 15:11:12 CST 2019
 ```
-
 
 #### Terminal
 
@@ -166,11 +163,13 @@ fi;
 #### Liquid
 
 {% raw %}
+
 ```liquid
 {% if product.title contains 'Pack' %}
   This product's title contains the word Pack.
 {% endif %}
 ```
+
 {% endraw %}
 
 #### HTML
@@ -178,7 +177,8 @@ fi;
 ```html
 <div class="sidenav">
   <a href="#contact">Contact</a>
-  <button class="dropdown-btn">Dropdown
+  <button class="dropdown-btn">
+    Dropdown
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-container">
@@ -203,7 +203,6 @@ fi;
   </div>
 </div>
 ```
-
 
 ## Reverse Footnote
 

@@ -47,6 +47,9 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
     margin-bottom: 2.5rem;
     @include align-center;
   }
+  p{font-size:20px !important;}
+  strong{ color:#ee6;}
+  span{color:#ee6}
 }
 
 .post-tail-wrapper {
