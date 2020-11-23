@@ -47,9 +47,11 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
     margin-bottom: 2.5rem;
     @include align-center;
   }
+  h2{ color:#ee9}
+  h3{ color:#fa657c}
   p{font-size:20px !important;}
   strong{ color:#ee6;}
-  em{color:#88a}
+  em{color:rgb(148, 148, 187); margin-left:3px; margin-right:3px;}
   span{color:#ee6}
   .red{color:#e22}
   .yellow{color:#ee6}

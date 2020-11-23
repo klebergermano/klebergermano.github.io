@@ -1,7 +1,7 @@
 ---
 title: Tipos de dados Javascript
 
-date: 2019-08-08 11:33:00 +0800
+date: 2019-08-08
 categories: [Blogging, Demo]
 tags: [javascript]
 math: true
