@@ -1,7 +1,7 @@
 ---
 title: Tipos de dados Javascript
 
-date: 2019-08-08 02:00:00
+date: 2019-08-08
 categories: [Javascript]
 tags: [tipos primitivos, Tipo Objeto]
 math: true
