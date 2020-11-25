@@ -62,7 +62,7 @@ google_analytics:
 
 disqus:
   comments: true # boolean type, the global switch for posts comments.
-  shortname: "KG_Blog.disq.us" # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  shortname: "https://kg-blog.disqus.com/embed.js" # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # Prefer color scheme setting, available values:
 #
