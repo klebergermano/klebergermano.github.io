@@ -1,0 +1,55 @@
+---
+title: Arquitetura de Software
+
+categories: [Dicionario]
+tags: [arquitetura de software]
+math: true
+image: /assets/img/posts/arquitetura-de-software.jpg
+---
+
+Arquitetura de Software começou a surgir no final dos anos 60 quando ciêntistas começaram a enfatizar a importância de se projetar e estruturar um software antes de se começar o seu desenvolvimento. tendo sida melhor definida e aceita no final dos anos 80 e inicio dos anos 90.
+O termo faz um paralelo com a "Arquitetura" que tem suas especificações de construção e projeto escritas em uma planta arquitetônica. Trazendo para o mundo do software basicamente seriam as nossas especificações do projeto e suas relações tecnológicas.
+
+Ou seja a Aruitetura de Software é a compreensão de como esse sistema deve ser organizado, como ele sera montado e como ele irar se comunicar com outros sistemas, incluindo também suas regras, limitações, etc.
+
+Esse processo pode ser considerado a segunda etapa no desenvolvimento de um Software vindo logo após a coleta de informações e requerimentos das partes interessadas no projeto ou seja os stackholders.
+
+Se tivermos que resumir podemos dizer que Arquitetura de Software é um Conjunto de Principios, Normas e Tecnicas para contrução de Software.
+
+Você também pode conferir a definição padrão sobre Arquitetura de Softwre da International Organization for Standardization (ISO) e o Institute of Electrical and Eletronics Engineers (IEEE), que é a ISO/IEC/IEEE 42010:2011 que determina o que é Arquitetura de Software.
+
+## Arquitetura de Software e os Design Patterns
+
+Atualmente a Aplicação Arquitetural inclui (mas não se limitam) a escolha das soluções do projeto como os Frameworks que serão usados padrões de Design a serem implementados, abaixo segue uma pequena lista com alguns desse Design Patterns.
+
+### Arquitetura em camadas (Layered pattern)
+
+Organiza um sistema de conjunto em camadas que podem ser desconstruídas em diferentes serviços, trazendo um modelo incremental de desenvolvimento. Os casos mais comuns para o uso desse padrão são em software de e-commerce e desktop.
+
+### Arquitetura cliente-servidor (Client-server pattern)
+
+Estilo organizado em serviços combinando dados do cliente e do servidor. Para isso, é primordial que o cliente disponibilize uma rede de acesso às informações. Este cenário é um dos mais conhecidos na rotina das pessoas, já que podem ser aplicativos bancários e e-mail.
+
+### Arquitetura MVC (Model-view-controller pattern)
+
+Distribuído em três camadas (Modelo, Visão e Controle), este padrão é um dos mais comuns para o online, porque traz um modelo interativo de sistema.
+
+### Arquitetura de microsserviços (Microservices pattern)
+
+Este padrão utiliza múltiplos serviços e componentes para desenvolver uma estrutura modular favorecida. Hoje, é um dos modelos preferidos dos desenvolvedores e arquitetos de software por possibilitar a escalabilidade e independência dos módulos – que até podem utilizar diferentes linguagens e programações.
+
+<!--
+
+#######################
+
+DIferença entre Arquitetura de Software e Design de Software
+
+##########################
+
+Requiriments Engineering -> Analysis -> Design -> Development -> Testing -> Acceptance -> Deployment -> Maintenance and Update.
+Fonte: https://youtu.be/lTkL1oIMiaU?t=145
+
+
+Best explication
+
+-->
