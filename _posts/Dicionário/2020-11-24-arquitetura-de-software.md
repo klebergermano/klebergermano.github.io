@@ -38,6 +38,14 @@ Distribuído em três camadas (Modelo, Visão e Controle), este padrão é um do
 
 Este padrão utiliza múltiplos serviços e componentes para desenvolver uma estrutura modular favorecida. Hoje, é um dos modelos preferidos dos desenvolvedores e arquitetos de software por possibilitar a escalabilidade e independência dos módulos – que até podem utilizar diferentes linguagens e programações.
 
+Esses são conceitos gerais, a aplicação hoje em dia vai muito alem de seus termos, temos por isso a profissão Arquiteto de Software onde este tem como dever justamente o projeto do software a ser montado, esse profissional deve levar em consideração: custos, manutenção, disponibilidade tecnológica, impacto direto e indereto sobre os stackholders, etc, etc, etc.
+
+#### Considerações.
+
+O termo Arquitetura de Software alem de extenso também é subjetivo, ou seja da margem para interpretações sobre suas definições, por esse mótivo algumas aspectos como o que deve-se abordar exatamente nessa fase e o que não se deve, podem ser mera questão de consenso e muitas vezes opnião.
+
+Mesmo Assim acredito que podemos resumir esse conceito como: <span>Arquitetura de Software é a disciplina que cuida do ato de se projetar um software levando em consideração a solução de possiveis problemas, usabilidade, reusabilidade, manutenção, tecnologias a serem aplicadas e o impacto dessas escolhas no resultado final do projeto bem como em seus envolvidos.</span>
+
 <!--
 
 #######################
