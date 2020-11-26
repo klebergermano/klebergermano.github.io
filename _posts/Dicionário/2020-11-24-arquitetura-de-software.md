@@ -14,8 +14,6 @@ Ou seja a Aruitetura de Software é a compreensão de como esse sistema deve ser
 
 Esse processo pode ser considerado a segunda etapa no desenvolvimento de um Software vindo logo após a coleta de informações e requerimentos das partes interessadas no projeto ou seja os stackholders.
 
-Se tivermos que resumir podemos dizer que Arquitetura de Software é um Conjunto de Principios, Normas e Tecnicas para contrução de Software.
-
 Você também pode conferir a definição padrão sobre Arquitetura de Softwre da International Organization for Standardization (ISO) e o Institute of Electrical and Eletronics Engineers (IEEE), que é a ISO/IEC/IEEE 42010:2011 que determina o que é Arquitetura de Software.
 
 ## Arquitetura de Software e os Design Patterns
@@ -40,11 +38,13 @@ Este padrão utiliza múltiplos serviços e componentes para desenvolver uma est
 
 Esses são conceitos gerais, a aplicação hoje em dia vai muito alem de seus termos, temos por isso a profissão Arquiteto de Software onde este tem como dever justamente o projeto do software a ser montado, esse profissional deve levar em consideração: custos, manutenção, disponibilidade tecnológica, impacto direto e indereto sobre os stackholders, etc, etc, etc.
 
-#### Considerações.
+### Algumas Considerações
 
-O termo Arquitetura de Software alem de extenso também é subjetivo, ou seja da margem para interpretações sobre suas definições, por esse mótivo algumas aspectos como o que deve-se abordar exatamente nessa fase e o que não se deve, podem ser mera questão de consenso e muitas vezes opnião.
+As definições do termo <span>Arquitetura de Software</span> além de extensas também são muitas vezes subjetivas, ou seja, elas dão margem para interpretações pessoais sobre suas definições e conceitos o que toram muitas aspectos uma questãode de consenso ou mera opnião.
 
-Mesmo Assim acredito que podemos resumir esse conceito como: <span>Arquitetura de Software é a disciplina que cuida do ato de se projetar um software levando em consideração a solução de possiveis problemas, usabilidade, reusabilidade, manutenção, tecnologias a serem aplicadas e o impacto dessas escolhas no resultado final do projeto bem como em seus envolvidos.</span>
+Foras essas especificidade acredito que podemos resumir esse conceito como:
+
+<span>Arquitetura de Software é a disciplina que cuida do ato de se projetar um software levando em consideração a solução de possiveis problemas, usabilidade, reusabilidade, manutenção, tecnologias a serem aplicadas e o impacto dessas escolhas no resultado final do projeto, bem como em seus envolvidos.</span>
 
 <!--
 
