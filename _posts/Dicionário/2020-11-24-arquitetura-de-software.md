@@ -1,7 +1,7 @@
 ---
 title: Arquitetura de Software
 
-categories: [Dicionario]
+categories: [Dicionário]
 tags: [arquitetura de software]
 math: true
 image: /assets/img/posts/arquitetura-de-software.jpg

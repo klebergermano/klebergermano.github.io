@@ -2,7 +2,7 @@
 title: Tipagens e Inferências de Tipo em Programação
 
 date: 2019-08-08
-categories: [Conceitos Sobre Programação]
+categories: [Dicionário]
 tags:
   [
     tipagem,
