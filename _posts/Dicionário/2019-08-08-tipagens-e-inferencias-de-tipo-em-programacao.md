@@ -2,7 +2,11 @@
 title: Tipagens e Inferências de Tipo em Programação
 
 date: 2019-08-08
+<<<<<<< HEAD
 categories: [Dicionário do Programador]
+=======
+categories: [Dicionário]
+>>>>>>> 4e7ba90 (Art. - A Tabela ASCII)
 tags:
   [
     Tipagem,
