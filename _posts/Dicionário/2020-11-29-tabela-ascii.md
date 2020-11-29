@@ -29,11 +29,16 @@ image: /assets/img/posts/a-tabela-ascii-01.png
 
 <!-- wp:paragraph -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 <p>A Tabelas ASCII também pode ser acessada via teclado ao se segurar o ALT  e adicionar o código numérico, lembrando que todos os caracteres presentes no teclado estão disponíveis  através de código ASCII como por exemplo  <strong>ALT + 97 = a</strong>, sendo esse o inicio do alfabeto minusculo e  <strong>ALT+ 65 =  A</strong>, o início do maiúsculo. <br>Lembrando que o ASCII do 0 ao 31 não possuem qualquer retorno de impressão ou visualmente imprimível, esse espaço 'vago' é utilizado para outras figuras úteis, a tabela a começa a reproduzir os respectivos códigos decimais do 32 em diante.
 <br>Por exemplo: <br> ALT + 1 = ☺  imprimi um rostinho feliz em vez de Start of Heading -SOH <br>ALT + 14 = ♫ ALT + 16 = ► e assim por diante até o ALT +31 = ▼ </p>
 =======
 <p>A Tabelas ASCII também pode ser acessada via teclado ao se segurar o ALT  e adicionar o código numérico, lembrando que todos os caracteres presentes no teclado estão disponíveis  através de código ASCII como por exemplo  <strong>ALT + 97 = a, </strong>sendo esse o inicio do alfabeto minusculo e  <strong>ALT+ 65 =  A</strong>, o início do maiúsculo. <br>Lembrando que o ASCII do 0 ao 31 não possuem qualquer retorno de impressão ou visualmente imprimível, esse espaço 'vago' é utilizado para outras figuras úteis, a tabela a começa a reproduzir os respectivos códigos decimais do 32 em diante.<br>Por exemplos <br> ALT + 1 = ☺  imprimi um rostinho feliz em vez de Start of Heading -SOH <br>ALT + 14 = ♫ ALT + 16 = ► e assim por diante até o ALT +31 = ▼ </p>
 >>>>>>> 4e7ba90 (Art. - A Tabela ASCII)
+=======
+<p>A Tabelas ASCII também pode ser acessada via teclado ao se segurar o ALT  e adicionar o código numérico, lembrando que todos os caracteres presentes no teclado estão disponíveis  através de código ASCII como por exemplo  <strong>ALT + 97 = a</strong>, sendo esse o inicio do alfabeto minusculo e  <strong>ALT+ 65 =  A</strong>, o início do maiúsculo. <br>Lembrando que o ASCII do 0 ao 31 não possuem qualquer retorno de impressão ou visualmente imprimível, esse espaço 'vago' é utilizado para outras figuras úteis, a tabela a começa a reproduzir os respectivos códigos decimais do 32 em diante.
+<br>Por exemplo: <br> ALT + 1 = ☺  imprimi um rostinho feliz em vez de Start of Heading -SOH <br>ALT + 14 = ♫ ALT + 16 = ► e assim por diante até o ALT +31 = ▼ </p>
+>>>>>>> 55ed177 (Art. - A Tabela ASCII - correções)
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
