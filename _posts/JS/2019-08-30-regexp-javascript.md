@@ -1,9 +1,9 @@
 ---
-title: RegExp Javascript
+title: "Javascript: RegExp"
 
 date: 2019-08-30
-categories: [RegExp, Javascript]
-tags: [expressões regulares, regexp]
+categories: [Javascript, RegExp]
+tags: [Expressões Regulares, RegExp]
 math: true
 image: /assets/img/posts/regexp-javascript.jpeg
 ---
