@@ -2,15 +2,15 @@
 title: Tipagens e Inferências de Tipo em Programação
 
 date: 2019-08-08
-categories: [RegExp, Dicionário]
+categories: [Dicionário do Programador]
 tags:
   [
-    tipagem,
-    inferencia de tipo,
-    tipagem forte,
-    tipagem fraca,
-    tipagem dinâmica,
-    tipagem estática,
+    Tipagem,
+    Inferência de Tipo,
+    Tipagem Forte,
+    Tipagem Fraca,
+    Tipagem Dinâmica,
+    Tipagem Estática,
   ]
 math: true
 image: /assets/img/posts/tipagens-e-inferencias-de-tipo-em-programacao.png

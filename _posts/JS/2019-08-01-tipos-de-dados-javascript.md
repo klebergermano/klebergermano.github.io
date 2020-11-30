@@ -1,9 +1,9 @@
 ---
-title: Tipos de dados Javascript
+title: "Javascript: Quais são os tipos de dados do JS?"
 
 date: 2019-07-08
-categories: [Javascript]
-tags: [tipos primitivos, Tipo Objeto]
+categories: Javascript
+tags: [Tipos Primitivos, Tipo Objeto]
 math: true
 image: /assets/img/posts/tipos-de-dados-javascript.png
 ---

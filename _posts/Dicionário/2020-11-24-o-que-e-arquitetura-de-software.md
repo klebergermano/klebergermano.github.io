@@ -1,10 +1,10 @@
 ---
-title: Arquitetura de Software
+title: O que é Arquitetura de Software?
 
-categories: [Dicionário]
-tags: [arquitetura de software]
+categories: [Dicionário do Programador]
+tags: [Arquitetura de Software]
 math: true
-image: /assets/img/posts/arquitetura-de-software.jpg
+image: /assets/img/posts/o-que-e-arquitetura-de-software.jpg
 ---
 
 Arquitetura de Software começou a surgir no final dos anos 60 quando ciêntistas começaram a enfatizar a importância de se projetar e estruturar um software antes de se começar o seu desenvolvimento. tendo sida melhor definida e aceita no final dos anos 80 e inicio dos anos 90.
