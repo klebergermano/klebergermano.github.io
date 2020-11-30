@@ -5,7 +5,11 @@ date: 2020-11-30
 categories: Javascript
 tags: [Códigos Úteis, Tips]
 
+<<<<<<< HEAD
 image: /assets/img/posts/JS-tips.jpg
+=======
+image: /assets/img/posts/JS-tips.png
+>>>>>>> 12e46ad (Art. Executando código após o carregamento da página)
 ---
 
 Em JQuery temos a possibilidade de executar scripts no documento somente depois que todo o conteúdo já está carregado, com o comando:

@@ -3,6 +3,7 @@ title: A Tabela ASCII
 
 date: 2020-11-29
 <<<<<<< HEAD
+<<<<<<< HEAD
 categories: [Dicionário do Programador]
 tags: [ASCII]
 math: true
@@ -10,6 +11,10 @@ image: /assets/img/posts/a-tabela-ascii-01.jpg
 =======
 categories: [Dicionário]
 tags: [ascii]
+=======
+categories: [Dicionário do Programador]
+tags: [ASCII]
+>>>>>>> 12e46ad (Art. Executando código após o carregamento da página)
 math: true
 image: /assets/img/posts/a-tabela-ascii-01.png
 >>>>>>> 4e7ba90 (Art. - A Tabela ASCII)

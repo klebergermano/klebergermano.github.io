@@ -4,6 +4,7 @@ title: Tipagens e Inferências de Tipo em Programação
 date: 2019-08-08
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 categories: [Dicionário do Programador]
 =======
 categories: [Dicionário]
@@ -11,6 +12,9 @@ categories: [Dicionário]
 =======
 categories: [RegExp, Dicionário]
 >>>>>>> 2342fc1 (Art. O que são expressões regulares)
+=======
+categories: [Dicionário do Programador]
+>>>>>>> 12e46ad (Art. Executando código após o carregamento da página)
 tags:
   [
     Tipagem,
