@@ -8,6 +8,7 @@ categories: [Dicionário do Programador]
 tags: [ASCII]
 math: true
 image: /assets/img/posts/a-tabela-ascii-01.jpg
+<<<<<<< HEAD:_posts/Dicionário/2020-11-29-tabela-ascii copy.md
 =======
 categories: [Dicionário]
 tags: [ascii]
@@ -18,6 +19,8 @@ tags: [ASCII]
 math: true
 image: /assets/img/posts/a-tabela-ascii-01.png
 >>>>>>> 4e7ba90 (Art. - A Tabela ASCII)
+=======
+>>>>>>> 800758c (Art. O que é DNS):_posts/Dicionário/2020-11-29-tabela-ascii.md
 ---
 
 <!-- wp:paragraph -->

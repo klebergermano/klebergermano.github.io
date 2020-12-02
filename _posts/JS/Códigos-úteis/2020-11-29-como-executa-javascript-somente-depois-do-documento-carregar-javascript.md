@@ -6,10 +6,14 @@ categories: Javascript
 tags: [Códigos Úteis, Tips]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 image: /assets/img/posts/JS-tips.jpg
 =======
 image: /assets/img/posts/JS-tips.png
 >>>>>>> 12e46ad (Art. Executando código após o carregamento da página)
+=======
+image: /assets/img/posts/JS-tips.jpg
+>>>>>>> 800758c (Art. O que é DNS)
 ---
 
 Em JQuery temos a possibilidade de executar scripts no documento somente depois que todo o conteúdo já está carregado, com o comando:
