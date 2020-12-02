@@ -5,7 +5,7 @@ date: 2020-11-29
 categories: [Dicionário do Programador]
 tags: [ASCII]
 math: true
-image: /assets/img/posts/a-tabela-ascii-01.png
+image: /assets/img/posts/a-tabela-ascii-01.jpg
 ---
 
 <!-- wp:paragraph -->

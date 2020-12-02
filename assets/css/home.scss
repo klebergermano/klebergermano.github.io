@@ -11,12 +11,27 @@
 #post-list {
   margin-top: 1rem;
   padding-right: 0.5rem;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr  !important;
+  gap: 20px;
 
+ 
+
+
+  
   .post-preview {
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--main-border-color);
 
+    figure{
+    
+      border-radius:5px;
+      overflow: hidden;
+      max-width: 100%;
+      clear: both;
+
+    }
     h1 {
       font-size: 1.4rem;
       margin: 0;
@@ -113,8 +128,15 @@
   }
 }
 
+
 /* Hide SideBar and TOC */
 @media all and (max-width: 830px) {
+  #post-list {
+
+    grid-template-columns: 1fr 1fr !important;
+  
+  }
+
   .pagination {
     justify-content: center;
   }
