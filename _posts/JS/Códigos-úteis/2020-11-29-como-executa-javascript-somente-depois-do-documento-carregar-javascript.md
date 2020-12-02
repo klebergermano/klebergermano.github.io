@@ -5,7 +5,7 @@ date: 2020-11-30
 categories: Javascript
 tags: [Códigos Úteis, Tips]
 
-image: /assets/img/posts/JS-tips.png
+image: /assets/img/posts/JS-tips.jpg
 ---
 
 Em JQuery temos a possibilidade de executar scripts no documento somente depois que todo o conteúdo já está carregado, com o comando:
