@@ -231,9 +231,14 @@ $sidebar-display: "sidebar-display";
 }
 
 #avatar {
+  padding:20px;
   > a {
     display: block;
+<<<<<<< HEAD
   max-width: 120px;
+=======
+  max-width: 100%;
+>>>>>>> 36bd0af (light mod)
     height: auto;
     border-radius: 20px;
     border: 1px solid #b6b6b6;
@@ -242,6 +247,7 @@ $sidebar-display: "sidebar-display";
     -webkit-transition: border-color 0.35s ease-in-out;
     -moz-transition: border-color 0.35s ease-in-out;
     transition: border-color 0.35s ease-in-out;
+ margin: 0 auto;
   }
 
   &:hover > a {
