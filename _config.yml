@@ -25,6 +25,7 @@ email: kleber_germano@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Magic stuff about programming.
 
+<<<<<<< HEAD
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://klebergermano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 =======
@@ -37,6 +38,8 @@ email: kleber_germano@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Magic stuff about programming.
   
+=======
+>>>>>>> 56aa2bb (Basic functionalities added)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 >>>>>>> 28642cb (Inicial theme minima installed)
@@ -105,16 +108,22 @@ excerpt_separator: <!--more-->
 >>>>>>> 28642cb (Inicial theme minima installed)
 =======
 
+excerpt_separator: <!--more-->
+
 defaults:
   #languages
   -
     scope:
-      path: ""
-    values:
-      lang: "en"
-  -
-    scope:
-      path: "/pt/"
+      path: "/"
     values:
       lang: "pt"
+<<<<<<< HEAD
 >>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
+=======
+
+  #-
+   # scope:
+    #  path: "/pt/"
+    #values:
+    #  lang: "pt"
+>>>>>>> 56aa2bb (Basic functionalities added)
