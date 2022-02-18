@@ -6,7 +6,14 @@ main_pages:
     about: 
       name: "About"
       url: "/en/about/"
+<<<<<<< HEAD
 
+=======
+    contact: 
+      name: "Contact"
+      url: "/en/contact"
+  
+>>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
   pt:
     home: 
       name: "Início"
@@ -14,14 +21,21 @@ main_pages:
     about: 
       name: "Sobre"
       url: "/pt/about"
+<<<<<<< HEAD
       
 changeLang:
   en: "Change Language"
   pt: "Mudar Linguagem"
+=======
+    contact: 
+      name: "Contato"
+      url: "/pt/contact"
+>>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
 
 relatedPosts:
   en: "Related Posts"
   pt: "Artigos Relacionados"
+<<<<<<< HEAD
 
 differentLanguage:
   en: "Read this page in a different language"
@@ -40,3 +54,8 @@ categories_link:
     Javascript: "Javascript"
     Dicitionaries: "Dicionarios"
     Regex: "Regex" 
+=======
+differentLanguage:
+  en: "Read this page in a different language"
+  pt: "Leia essa página em outro idioma"
+>>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)

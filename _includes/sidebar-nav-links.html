@@ -4,29 +4,49 @@
         href="{{ "/" | relative_url }}">Home</a>
   {% endif %}
 
+<<<<<<< HEAD
   <!--Link Pages-->
+=======
+  <!--Languages available-->
+>>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
   <ul>
     {% for menu in site.data.translations.main_pages[page.lang] %}
     <li><a href="{{menu[1].url}}">{{menu[1].name}}</a></li>
     {% endfor %}
   </ul>
+<<<<<<< HEAD
 <!--------------------------------------------------------->
   
 <!--TODO: Check funcionality of this code -->
+=======
+
+  <!--TODO: Check functionality of this part of the code-->
+>>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
   {% if site.sidebar_blog_link %}
     <a class="page-link {% if page.url == site.sidebar_blog_link %} active{% endif %}"
 	href="{{ site.sidebar_blog_link | relative_url }}">Blog</a>
   {% endif %}
+<<<<<<< HEAD
   
+=======
+<!--------------------------------------------------------->
+>>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
   {% comment %}
     The code below dynamically generates a sidebar nav of pages with
     `sidebar_link: true` in the front-matter. See readme for usage.
   {% endcomment %}
+<<<<<<< HEAD
   {% include page-links.html %}
 
   <!--Categories page -->
   {% include category-links.html %}
 
   <!--TODO: Check funcionality of this code -->
+=======
+
+  {% include page-links.html %}
+  {% include category-links.html %}
+
+>>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
   {% include custom-nav-links.html %}
 </nav>

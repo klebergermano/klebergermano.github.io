@@ -11,6 +11,7 @@
     <p class="lead">{{ site.description }}</p>
     <hr/>
     <!-------------Language-Links------------------>
+<<<<<<< HEAD
     <div class="bg_change_lang_site">
       <em>{{ site.data.translations.changeLang[page.lang] }}:</em>
       <ul>
@@ -26,6 +27,21 @@
     {% if site.version %}
       <span class="site-version">Currently v{{ site.version }}</span>
     {% endif %}
+=======
+    {% for lang in site.data.languages %}
+    <li><a href='{{ lang[1].base_url }}''>{{lang[1].label}}</a></li>
+    {% endfor %}
+    <hr/>
+    <!--------------------------------------------->
+
+  </header>
+  {% include sidebar-nav-links.html %}
+
+  {% if site.version %}
+    <span class="site-version">Currently v{{ site.version }}</span>
+  {% endif %}
+
+>>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
   {% include sidebar-icon-links.html %}
   {% include copyright.html %}
 </div>
