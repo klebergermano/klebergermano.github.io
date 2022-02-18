@@ -22,7 +22,7 @@ title: Kleber Germano
 email: kleber_germano@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Magic stuff about programming.
-  
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -53,15 +53,18 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+excerpt_separator: <!--more-->
+
 defaults:
   #languages
   -
     scope:
-      path: ""
-    values:
-      lang: "en"
-  -
-    scope:
-      path: "/pt/"
+      path: "/"
     values:
       lang: "pt"
+
+  #-
+   # scope:
+    #  path: "/pt/"
+    #values:
+    #  lang: "pt"
