@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # hidden files
 .*
 !.github
@@ -18,11 +17,9 @@ Gemfile.lock
 *.jar
 
 # bundle cache
-=======
 _site
 _site_ghpages
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
->>>>>>> 5642c23 (Inicial theme minima installed)
 vendor

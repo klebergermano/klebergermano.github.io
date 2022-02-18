@@ -1,0 +1,200 @@
+I"�%<p>Expressões Regulares são padrões utilizados para a filtragem e modificação de resultados que utilizam metacaracteres na construção de suas expressões
+Ex. * + ? $ ^ . () | \ { } [ ]</p>
+
+<h2 id="flags">Flags:</h2>
+
+<p>g – Global Search
+m – Multiple lines
+i – insensitive case</p>
+
+<p>Regex podem conter expressões simples como</p>
+
+<p>Ex.</p>
+
+<pre><code class="language-Regexp"> /mar/
+</code></pre>
+
+<table>
+  <thead>
+    <tr>
+      <th>Teste</th>
+      <th>Resultado</th>
+      <th>Comentário</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>“mar está calmo hoje”</td>
+      <td>true</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>“O maravilhoso mundo da ciência”</td>
+      <td>true</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>“Ela ama racionalmente”</td>
+      <td>false</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="caracteres-especiais">Caracteres Especiais</h2>
+
+<h3 id="-circunflexo">^ Circunflexo</h3>
+
+<p>Marca o início exato de uma expressão
+Ex. /^ponta/
+“A pontada” false
+“pontada” true</p>
+
+<h3 id="-cifrão">$ Cifrão</h3>
+
+<p>Marca o fim exato de uma expressão Ex. /cada$/
+“A escada“ retorna true pois a frase termina exatamente com a palavra ‘cada’
+“A escada azul” retorna false pois a frase não tem o fim exato da expressão</p>
+
+<p>\b Boundary
+Tem uma função parecida com circunflexo e o cifrão, ele busca por fronteiras de palavras, ele não possui tamanho.</p>
+
+<p>\B – Boundary Inverso
+Age exatamente de maneira inversa ao Boundary comum encontrando todas a posições que o \b não encontra</p>
+
+<ul>
+  <li>
+    <p>Asterisco
+Corresponde a expressão que o precede repetida 0 ou mais vezes. Equivalente a {0,} Ex. /bo*/
+“boooo” retorna “boooo”
+“A bird warbled” retorna “b”
+“A goat grunted” não tem retorno.</p>
+  </li>
+  <li>
+    <p>Adição
+Corresponde a expressão que o precede repetido 1 ou mais vezes. Equivalente a {1,}. Pode ser usado também em conjunto com colchetes []+ permitindo que os caracteres repitam ilimitadamente. Ex. /a+/
+“candy” retorna “a”
+“caaaaaaandy” retorna “aaaaaaa”</p>
+  </li>
+</ul>
+
+<h3 id="-interrogação">? Interrogação</h3>
+
+<p>Corresponde a expressão que o precede repetido 0 ou 1 vez. Equivalente à {0,1}.
+Nota: Se usado imediatamente após qualquer um dos quantificadores *, +, ? ou {}, faz o quantificador não guloso (combinando o número mínimo de vezes), como um oposto para o padrão que é guloso (combinar o número máximo possível). Por exemplo, aplicando /\d+/ em “123abc” encontra “123”. Mas aplicando /\d+?/, apenas “1” será encontrado</p>
+
+<p>Ex. /bo*/
+“Scoob doo” retorna “boooo”
+“A bird warbled” retorna “b”
+“A goat grunted” não tem retorno.</p>
+
+<h3 id="-ponto-decimal">. Ponto Decimal</h3>
+
+<p>(O ponto decimal) corresponde com qualquer caracter, exceto o caracter de nova linha. Ex. /.n/
+“onde “ retorna “on”
+“restantes” retorna “an”.
+“nove” sem retorno.</p>
+
+<h3 id="--parênteses">( ) Parênteses</h3>
+
+<p>Os parênteses são usados para separar um grupo dentro da pesquisa, essa parte separada pode ser usada depois independentemente.</p>
+
+<p>(X) Pesquisa correspondência com o caractere ‘x’ e memoriza-o, como a o exemplo a seguir mostra. Os parênteses são chamados parênteses de captura.Por exemplo, o ‘(foo)’ e ‘(bar)’ no padrão /(foo) (bar) \1 \2/ encontra e memoriza a primeira das duas palavras na string “foo bar foo bar”. O \1 e \2 no padrão combina as duas últimas palavras da string. Note que \1, \2, \n são utilizados na parte correspondente do regex.</p>
+
+<p>(?:x) Pesquisa correspondência com o caractere ‘x’ porém não o memoriza. Os parênteses são chamados de parênteses de não-captura e permitem que você defina uma subexpressão para operadores de expressão regular trabalhar com eles. Considere essa expressão de exemplo /(?:foo){1,2}/. Se a expressão era /foo{1,2}/, o {1,2} poderia ser aplicado apenas para o último ‘o’ em ‘foo’. Com os parênteses de não-captura, o {1,2} é aplicado para toda a palavra ‘foo’.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>x(?=y) Pesquisa correspondência em ‘x’ apenas se ‘x’ é seguido por ‘y’. Isso é chamado de lookahead.Por exemplo, /Jack(?=Sprat)/ busca ‘Jack’ apenas se é seguido por ‘Sprat’. /Jack(?=Sprat</td>
+      <td>Frost)/ busca ‘Jack’ apenas se ele é seguido por ‘Sprat’ ou ‘Frost’. No entanto, ‘Sprat’ nem ‘Frost’ faz parte do resultado retornado.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>x(?!y) Pesquisa correspondência em ‘x’ apenas se ‘x’ não é seguido por ‘y’. Isso é chamado negação lookahead.Por exemplo, /\d+</p>
+
+<p>(?!.)/ encontra um número apenas se ele não for seguido por um ponto decimal. A expressão regular /\d+(?!.)/.exec(“3.141”) encontra ‘141’ mas não ‘3.141’.</p>
+
+<h3 id="-barra-vertical">| Barra Vertical</h3>
+
+<p>##. Ponto Decimal
+Permite alterna entre duas buscas tendo a mesma representação que um “ou” Ex. /gato | cachorro/
+“o gato é dorminhoco “ retorna “gato”
+“o cachorro é dorminhoco” retorna “cachorro”.</p>
+
+<h3 id="--chaves">{ } Chaves</h3>
+
+<p>Permite procurar uma quantidade de caracteres especificas. Ex. /a{2}/
+“Sapo “ sem retorno
+“Saapo” retorna “aa”
+“saaaaaapo” retorna “aa” Ex. /a{1,3}/
+“Sapo “ retorna “a”
+“Saapo” retorna “aa”
+“saaaaaapo” retorna “aaa”
+[xyz] é basicamente o oposto de uma expressão literal /xyz/ onde esses essa ordem deve ser exata, com os colchetes [ ] qualquer um dos caracteres dentro retorna true, permitindo também a especificação de intervalos entre caracteres usando o hífen [a-z] por exemplo retorna qualquer letra entre de a até z
+Caracteres especiais (como o ponto (.) e o asterisco(*)) não tem significado algum quando está dentro de um conjunto de caracteres. Não necessita utiliza escape neles. Mas, se utilizar escape também irá funcionar. Por exemplo, [abcd] é o mesmo que [a-d]. Com a expressão será encontrado o ‘b’ em “beijo” e o ‘c’ em “chop”. A expressão /[a-z.]+/ e /[\w.]+/ ambos encontraram as letras que formam “test.i.ng”.
+[^xyz] Usar o circunflexo dentre de colchetes permite negar a expressão, ou seja torna válido tudo o que não estiver dentro dos colchetes.
+Você pode especificar um intervalo de caracteres usando hífen e todas as funções permitidas dentro de colchetes.</p>
+
+<h3 id="-barra-invertida">\ Barra Invertida</h3>
+
+<p>Transforma caracteres simples em especiais, evitando que sejam interpretados de forma literal, e caracteres especiais em simples evitando que suas funções especiais sejam atribuídas, por esse motivo também é chamado de caractere de escape</p>
+
+<h3 id="caracteres-normais-que-tem-funções-especias-com-">Caracteres normais que tem funções especias com \</h3>
+
+<p>[\b] <em>Procura espaços em branco</em></p>
+
+<p>\b <em>Procura a ‘fronteira’ dos caracteres, marcado seu inicio e fim.</em></p>
+
+<p>\B <em>É o exato oposto de \b e retorna todas as posições que \b não retorna.</em></p>
+
+<p>\cX <em>Detecta Caracteres de Controle ASCII onde X pode variar de A-Z ex: /\cI/ encontra espaços Tab</em></p>
+
+<p>\d <em>Procura dígitos de 0-9 Equivalente a [0-9].</em></p>
+
+<p>\D <em>Procura caracteres que não sejam dígitos Equivalente a [^0-9].</em></p>
+
+<p>\f <em>Procura o caracter de escape Avanço de Página (Line Feed – LF)</em></p>
+
+<p>\n <em>Procura quebra de linha.</em></p>
+
+<p>\r <em>Procura caractere de escape “Retorno de Carro” que também é uma quebra de linha.</em></p>
+
+<p>\s <em>Procura todas as correspondência com espaço, tabulação, avanço de página e quebra de linha.</em></p>
+
+<p>\S <em>Procura por um caractere que não seja espaço em branco.</em></p>
+
+<p>\t <em>Procura por tabelas</em></p>
+
+<p>\v <em>Procura tabelas verticais</em></p>
+
+<p>[A-Za-z0-9_]aasdfsdfasdfsdf\</p>
+
+<p>\w <em>Procura por qualquer caractere alfanumérico incluindo underline. Equivalente [A-Za-z0-9_]</em></p>
+
+<p>\W <em>Procura por não caracteres. Equivalente a [^a-za-z0-9_]</em></p>
+
+<p>\num <em>Onde num é um inteiro positivo. Faz referência a substring pertencente à um grupo, um grupo é definido entre parênteses.
+Grupos são numerados de 1 até 9.</em></p>
+
+<p>\0 <em>Encontra correspondência em um caractere NULL (U+0000).</em></p>
+
+<p>\xhh <em>Encontra correspondência com o código hh (dois valores hexadecimal).</em></p>
+
+<p>\uhhhh <em>Encontra correspondência com o código hhh (três valores hexadecimal).</em></p>
+
+<p>\u{hhhh} <em>(funciona apenas com a flag u) Encontra correspondência com o valor Unicode hhhh (dígitos hexadecimais).</em></p>
+
+<p>Links úteis e fonts :</p>
+
+<p><a href="https://www.regular-expressions.info/wordboundaries.html">https://www.regular-expressions.info/wordboundaries.html</a></p>
+
+<p><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions</a></p>
+
+<p><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RegExp">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RegExp</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>
+</pre></td></tr></tbody></table></code></pre></div></div>
+:ET
