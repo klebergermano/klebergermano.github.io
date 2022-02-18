@@ -1,0 +1,97 @@
+I"d<p>Em Javascript ou qualquer outra linguagem temos a necessidade de armazenas e manipular dados, informações, etc.
+Esses valores possuem os chamados “tipos”, que são a categoria a qual uma informação pertence.</p>
+
+<p>Em JS dois grupos de tipos; os <strong>Tipos Primitivos</strong> e os <strong>Objetos</strong>.</p>
+
+<h2 id="tipos-primitivos">Tipos Primitivos</h2>
+
+<p>Os Tipos Primitivos se dividem entre: <span>strings</span> (texto), <span>numbers</span> (numéricos), <span>booleans</span> (boleanos).</p>
+
+<p>Alem desse três temos dois tipo especiais, o <span>Null</span> e <span>Undefined</span> que são tipos “Primitivos Especiais”.
+Os Primitivos Especiais são únicos na sua própria classificação.</p>
+
+<p>Para descobrir o tipo de uma informação em JS podemos usar o comando</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td> --><td class="rouge-code"><pre><span class="k">typeof</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Por xemplo, caso seja realizado um <em>typeof</em> em qualquer texto, esse retornara como <em>string</em>.
+Já um <em>typeof</em> no tipo <em>undefined</em> retornara <em>undefined</em></p>
+
+<p>no caso do null temos um bug onde caso seja realizado o teste esse retornara “object”.</p>
+
+<p>Input</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td> --><td class="rouge-code"><pre><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">typeof</span> <span class="kc">null</span><span class="p">);</span> <span class="c1">// Output: Object</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">typeof</span> <span class="kc">undefined</span><span class="p">);</span> <span class="c1">// Output: undefined</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h2 id="tipo-objeto">Tipo Objeto</h2>
+
+<p>Em Javascript todo valor que não seja um tipo primitivo comun ou especial é um Objeto.</p>
+
+<p>Objetos podem ser considerados uma coleção de propriedades onde cada propriedade possui seu nome e valor.
+saiba mais aqui: <a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Objetos/B%C3%A1sico" target="_blank">Objetos Javascript</a></p>
+
+<h2 id="retornos-do-typeof">Retornos do typeof</h2>
+
+<p>Temos abaixo uma lista mais completa dos possiveis retornos de tipo, quando usado o <span>typeof</span></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Typeof</th>
+      <th style="text-align: center">Resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>undefined</td>
+      <td style="text-align: center">undefined</td>
+    </tr>
+    <tr>
+      <td>Null</td>
+      <td style="text-align: center">object</td>
+    </tr>
+    <tr>
+      <td>Boolean</td>
+      <td style="text-align: center">boolean</td>
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td style="text-align: center">number</td>
+    </tr>
+    <tr>
+      <td>String</td>
+      <td style="text-align: center">String</td>
+    </tr>
+    <tr>
+      <td>Host object (provided by the JS environment)</td>
+      <td style="text-align: center">Implementation-dependent</td>
+    </tr>
+    <tr>
+      <td>Function object (implements [[Call]] in ECMA-262 terms)</td>
+      <td style="text-align: center">“function”</td>
+    </tr>
+    <tr>
+      <td>E4X XML object</td>
+      <td style="text-align: center">xml</td>
+    </tr>
+    <tr>
+      <td>E4X XMLList object xml</td>
+      <td style="text-align: center">xml</td>
+    </tr>
+    <tr>
+      <td>Outros Objetos</td>
+      <td style="text-align: center">object</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Null não é um <em>objeto</em>, seu retorno como object é considerado um bug pela Mozilla - <a href="http://2ality.com/2013/10/typeof-null.html">http://2ality.com/2013/10/typeof-null.html</a></li>
+</ul>
+:ET

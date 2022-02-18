@@ -1,0 +1,61 @@
+I"�<h1 id="o-que-é">O que é?</h1>
+
+<p>Existe uma boa analogia que resume a função do DNS que é:
+<em>“DNS é uma especie de lista telefônica da internet”</em>,
+É uma boa comparação já que a função do DNS é assim como numa lista telefonica associar Associar um “Nome” a um “Número”. Assim chamamos esse Nome de “Domínio” e o Númeo de IP (Internet Protocol).</p>
+
+<p>Essa necessidade de conversão entre Domínio para um número de IP existe somente por que diferente dos humanos os computadores trabalham essencialmete com números, assim tanto a indentificação de um endereço é feita atraves de um número o IP.
+Apesar de funcionar bem para computadores para nós (humanos) memorizar endereços de IP como 192.168.1.1 (no IPv4) ou endereços IP alfanuméricos mais complexos e mais recentes, como 2400:cb00:2048:1::c629:d7a2 (no IPv6) é algo estremamente dificil e por esse motivo que os Servidores DNS são essênciais.</p>
+
+<h1 id="como-surgiu">Como surgiu?</h1>
+
+<p>No final dos anos 70 e inicio dos 1980 o número de computadores conectados crescia rapidamente o que gerou um problema na indentificação e comunicação. ja que para se conectar com outro computar era preciso saber seu endereço de IP, assim foi deixa a cardo do cientista <em>Paul Mockapetris</em> e sua equipe a busca por uma solução.
+Foi quando ainda no ano de de 1983 eles criaram um sistema que era capaz de atribuir e conferir em uma espêcie de lista, nomes associados a IPS assim nascia o DNS, que até hoje é um dos principios fundamentais da internet.</p>
+
+<h1 id="como-funciona">Como funciona?</h1>
+
+<p>Todo dispositivo contectado a rede tem um edereço de IP único para que possa ser indentificado, então quando digitamos um dominio como “teste.com” o que estamos realmente fazendo é buscar um determinado “computador” na rede mundial de computadores, ou seja na Internet. esse nome pesquisado é uma especie de etiqueta que está atribuido a um número de indentificação de um determinado computador ou simplesmente o IP.
+Para fazer essa pesquisa utilizamos antes de mais nada o nosso Browser, que antes de mais nada ira conferir no cash e depois localmente se aquele dominino/hostname esta associado algum IP, caso não esteja então ele enviara uma requisição para um Servidor DNS onde esse ira procurar em uma espercie de lista se quele domínio esta associado a algum endereço de IP, caso esteja ele retornara o número do IP, permitindo que assim o navegador faça a requisição com o servidor correto através de uma conexão HTTP onde este ira retornar o conteúdo solicitado.</p>
+
+<h1 id="quem-é-o-responsável-pelo-dns">Quem é o responsável pelo DNS?</h1>
+
+<p>A organização responsável por atribuir nomes de domínios a endereços IPs no mundo todo é a ICANN (Internet Corporation for Assigned Names and Numbers), ou Corporação da Internet para Atribuição de Nomes e Números, em português. saiba mais sobre a ICANN <a href="https://pt.wikipedia.org/wiki/Corpora%C3%A7%C3%A3o_da_Internet_para_Atribui%C3%A7%C3%A3o_de_Nomes_e_N%C3%BAmeros">aqui</a>.</p>
+
+<!--
+# Divisão de um Servidor DNS.
+
+# O que é um Origin Server?
+
+# O que é um CDN edge Server?
+
+# O que são esses servidores?
+
+A server is a device or program dedicated to providing services to other programs, referred to as ‘clients’. DNS clients, which are built into most modern desktop and mobile operating systems, enable web browsers to interact with DNS servers. For more, see The Client-Server Model.
+
+How do DNS servers resolve a DNS query?
+In a typical DNS query without any caching, there are four servers that work together to deliver an IP address to the client: recursive resolvers, root nameservers, TLD nameservers, and authoritative nameservers.
+
+The DNS recursor (also referred to as the DNS resolver) is a server that receives the query from the DNS client, and then interacts with other DNS servers to hunt down the correct IP. Once the resolver receives the request from the client, the resolver then actually behaves as a client itself, querying the other three types of DNS servers in search of the right IP.
+
+DNS Lookup
+First the resolver queries the root nameserver. The root server is the first step in translating (resolving) human-readable domain names into IP addresses. The root server then responds to the resolver with the address of a Top Level Domain (TLD) DNS server (such as .com or .net) that stores the information for its domains.
+
+Next the resolver queries the TLD server. The TLD server responds with the IP address of the domain’s authoritative nameserver. The recursor then queries the authoritative nameserver, which will respond with the IP address of the origin server.
+
+The resolver will finally pass the origin server IP address back to the client. Using this IP address, the client can then initiate a query directly to the origin server, and the origin server will respond by sending website data that can be interpreted and displayed by the web browser.
+
+What is DNS Caching?
+In addition to the process outlined above, recursive resolvers can also resolve DNS queries using cached data. After retrieving the correct IP address for a given website, the resolver will then store that information in its cache for a limited amount of time. During this time period, if any other clients send requests for that domain name, the resolver can skip the typical DNS lookup process and simply respond to the client with the IP address saved in the cache.
+
+Once the caching time limit expires, the resolver must retrieve the IP address again, creating a new entry in its cache. This time limit, referred to as the time-to-live (TTL) is set explicitly in the DNS records for each site. Typically the TTL is in the 24-48 hour range. A TTL is necessary because web servers occasionally change their IP addresses, so resolvers can’t serve the same IP from the cache indefinitely.
+
+What happens when DNS servers fail?
+DNS servers can fail for multiple reasons, such as power outages, cyberattacks, and hardware malfunctions. In the early days of the Internet, DNS server outages could have a relatively large impact. Thankfully, today there is a lot of redundancy built into DNS. For example, there are many instances of the root DNS servers and TLD nameservers, and most ISPs have backup recursive resolvers for their users. (Individual users can also use public DNS resolvers, like Cloudflare’s 1.1.1.1.) Most popular websites also have multiple instances of their authoritative nameservers.
+
+In the case of a major DNS server outage, some users may experience delays due to the amount of requests being handled by backup servers, but it would take a DNS outage of very large proportions to make a significant portion of the Internet unavailable. (This actually happened in 2016 when DNS provider Dyn experienced one of the biggest DDoS attacks in history). Cloudflare offers a Managed DNS Service that comes with built-in DNS security aimed at protecting DNS servers from attacks as well as other common sources of server failure.
+
+
+
+
+-->
+:ET

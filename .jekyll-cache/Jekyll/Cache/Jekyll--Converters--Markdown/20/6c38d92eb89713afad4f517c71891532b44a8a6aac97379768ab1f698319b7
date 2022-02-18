@@ -1,0 +1,65 @@
+I"@<h2 id="inferência-de-tipo">Inferência de Tipo</h2>
+
+<p>A inferência de tipo diz-se da linguagem que tem a capacidade de determinar o tipo de variável mesmo que esse não tenha sido explicitamente declarado.</p>
+
+<p>Por exemplo</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td> --><td class="rouge-code"><pre><span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="c1">// caso a linguagem possua inferência de tipo não precisamos explicitamente</span>
+<span class="c1">//declarar seu tipo deixando essa tarefa para o próprio interpretador da linguagem</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-c# highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><!-- <td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td> --><td class="rouge-code"><pre><span class="kt">var</span> <span class="kt">int</span> <span class="n">n</span> <span class="p">=</span> <span class="m">1</span>
+<span class="c1">// nesse caso precisamos explicitamente declarar o tipo já que a linguagem  não possui</span>
+<span class="c1">//  inferência de tipo ou seja ela não infere qual o tipo de dado que esta sendo atribuído.</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Duas Linguagens comuns que possuem inferência de tipo são Javascript e Python.</p>
+
+<h2 id="tipagem-forte-e-fraca">Tipagem Forte e Fraca</h2>
+
+<p>Tipagem Forte e Fraca é a capacidade da linguagem analisar os tipos de dados em tempo de execução ou compilação, impedindo por exemplo que tipos diferentes operem (caso seja Forte) ou concatenando esses tipos (caso seja Fraca) .
+Por exemplo:
+var n = 1
+n += “casa”
+Linguagem de Tipagem Fraca como o Javascript procedem com essa operação fazendo uma concatenação entre os tipos diferentes ou seja n passa a ter o valor de “1casa”;</p>
+
+<p>Outras linguagens como o Python que possuem Tipagem Forte não permitem esse tipo de operação retornando um erro de “tipos diferentes” sendo a primeira um integer e o segundo uma string
+Tipagem Estática e Dinâmica</p>
+
+<h2 id="tipagem-dinâmica">Tipagem Dinâmica</h2>
+
+<p>A Tipagem Dinâmica ou Estática se refere a capacidade que a linguagem tem de assegurar que uma variável tenha seu tipo de dado alterado durante a compilação ou interpretação do código.
+Por exemplo
+var int n = 1
+n = “chocolate”
+Uma linguagem de Tipo Estático retorna erro pois tentamos passar uma string para uma variável que previamente havia sido declarada como integer</p>
+
+<p>Já uma linguagem de tipo Dinâmico essa troca seria feita sem apresentar nenhum tipo de erro, pois o Tipo de dado na variável pode ser alterado dinamicamente durante a compilação/interpretação do código</p>
+
+<h2 id="resumo">Resumo:</h2>
+
+<p>Inferência de Tipo: <em>Atribui automaticamente o tipo de dado à variável.</em></p>
+
+<p>Tipagem Forte: <em>Não permite operações entre tipos diferentes de dados.</em></p>
+
+<p>Tipagem Fraca: <em>Permite operações entre tipos diferentes de dados.</em></p>
+
+<p>Tipagem Estática: <em>Não permite que uma variável receba um valor diferente do que o previamente declarado ou inferido.</em></p>
+
+<p>Tipagem Dinâmica: <em>Permite que uma variável receba um valor diferente do que o previamente declarado ou inferido.</em></p>
+
+<h3 id="algumas-linguagens-e-suas-tipagens">Algumas Linguagens e suas tipagens</h3>
+
+<p>C# – Tem Inferência de Tipo, Tipagem Forte, Tipagem Estática</p>
+
+<p>JS – Tem Inferência de Tipo, Tipagem Forte e Tipagem Dinâmica.</p>
+
+<p>Python – Tem Inferência de Tipo, Tipagem Forte e Tipagem Dinâmica</p>
+:ET
