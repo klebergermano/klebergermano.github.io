@@ -1,0 +1,29 @@
+main_pages:
+  en:
+    home: 
+      name: "Home"
+      url: "/"
+    about: 
+      name: "About"
+      url: "/en/about/"
+    contact: 
+      name: "Contact"
+      url: "/en/contact"
+  
+  pt:
+    home: 
+      name: "Início"
+      url: "/pt/"
+    about: 
+      name: "Sobre"
+      url: "/pt/about"
+    contact: 
+      name: "Contato"
+      url: "/pt/contact"
+
+relatedPosts:
+  en: "Related Posts"
+  pt: "Artigos Relacionados"
+differentLanguage:
+  en: "Read this page in a different language"
+  pt: "Leia essa página em outro idioma"
