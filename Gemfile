@@ -10,11 +10,17 @@ source "https://rubygems.org"
 
 gem "webrick"
 
+<<<<<<< HEAD
 #gem 'jekyll-theme-hydeout', '~> 4.2'
 
 gem "jekyll", "~> 4.2.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "minima", "~> 2.5"
+=======
+gem "jekyll", "~> 4.2.1"
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem "minima", "~> 2.5"
+>>>>>>> 28642cb (Inicial theme minima installed)
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -33,8 +39,11 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
+<<<<<<< HEAD
 #Page Multiple
 group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-paginate-multiple'
 end
+=======
+>>>>>>> 28642cb (Inicial theme minima installed)
