@@ -30,8 +30,26 @@ github_username:  jekyll
 
 # Build settings
 theme: jekyll-theme-hydeout
+
 plugins:
   - jekyll-feed
+
+# Paginate-multiple
+paginate_multiple:
+  - paginate: 3
+    paginate_path: '/en/page:num/'
+    sub_dir: '/en'
+
+  - paginate: 3
+    paginate_path: /pt/page:num/
+    sub_dir: '/pt'
+
+gems :
+  - jekyll-paginate
+  - jekyll-paginate-multiple
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -55,16 +73,3 @@ plugins:
 
 excerpt_separator: <!--more-->
 
-defaults:
-  #languages
-  -
-    scope:
-      path: "/"
-    values:
-      lang: "pt"
-
-  #-
-   # scope:
-    #  path: "/pt/"
-    #values:
-    #  lang: "pt"
