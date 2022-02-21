@@ -45,10 +45,16 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 07f58bf (New blog, dual language)
 #Page Multiple
 group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-paginate-multiple'
 end
+<<<<<<< HEAD
 =======
 >>>>>>> 28642cb (Inicial theme minima installed)
+=======
+>>>>>>> 07f58bf (New blog, dual language)

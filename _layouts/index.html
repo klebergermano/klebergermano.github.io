@@ -1,6 +1,7 @@
 ---
 layout: default
 <<<<<<< HEAD
+<<<<<<< HEAD
 pagination:
   enabled: true
 ---
@@ -65,22 +66,48 @@ pagination:
 <!--TODO:  check this code below to see if it is useful--------------------------------------------------------------->
 {% comment %}
 =======
+=======
+pagination:
+  enabled: true
+>>>>>>> 07f58bf (New blog, dual language)
 ---
 
 <div class="content">
 <!--------------------------------------------------------------------------->
 
-{% for post in site.posts %}
-    {% if post.lang == page.lang %}
-    [layouts-index post: {{post.lang}} page: {{page.lang}}]
-      {% if post.excerpt %}
-      <div class="posts_excerpts">
-      <h3><a href='{{post.url}}'>{{ post.title}}</a> </h3>
-      {{post.excerpt}}
-      </div>
-     {% endif %}
-    {% endif %}
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.excerpt}}
+  </div>
 {% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+
+  {% include pagination-older.html %}
+  {% include footer.html %}
+</div>
 
 <!--------------------------------------------------------------------------->
 <<<<<<< HEAD

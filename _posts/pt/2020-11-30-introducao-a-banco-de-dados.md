@@ -2,12 +2,20 @@
 layout: post
 title: "INTRODUÇÃO A BANCO DE DADOS"
 date: 2020-12-03 06:10:00
+<<<<<<< HEAD
 categories: [Data Base, Banco de Dados]
+=======
+categories: BD
+>>>>>>> 07f58bf (New blog, dual language)
 tags: [DB, BD, Banco de Dados]
 image: /assets/img/posts/banco-de-dados/banco-de-dados-conceitos-essenciais.jpg
 lang: pt
 ---
 
+<<<<<<< HEAD
+=======
+## O que é um Banco de Dados?
+>>>>>>> 07f58bf (New blog, dual language)
 
 Banco de Dados, pode ser definido como qualquer coleção de informações armazenadas de forma organizada e relacionada; onde podemos acessar os dados armazenados para obter determinadas informações.
 <!--more-->

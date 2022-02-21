@@ -75,11 +75,35 @@ gems :
 theme: minima
 =======
 theme: jekyll-theme-hydeout
+<<<<<<< HEAD
 >>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
 plugins:
   - jekyll-feed
 
 >>>>>>> 28642cb (Inicial theme minima installed)
+=======
+
+plugins:
+  - jekyll-feed
+
+# Paginate-multiple
+paginate_multiple:
+  - paginate: 3
+    paginate_path: '/en/page:num/'
+    sub_dir: '/en'
+
+  - paginate: 3
+    paginate_path: /pt/page:num/
+    sub_dir: '/pt'
+
+gems :
+  - jekyll-paginate
+  - jekyll-paginate-multiple
+
+
+
+
+>>>>>>> 07f58bf (New blog, dual language)
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -110,6 +134,7 @@ excerpt_separator: <!--more-->
 
 excerpt_separator: <!--more-->
 
+<<<<<<< HEAD
 defaults:
   #languages
   -
@@ -127,3 +152,5 @@ defaults:
     #values:
     #  lang: "pt"
 >>>>>>> 56aa2bb (Basic functionalities added)
+=======
+>>>>>>> 07f58bf (New blog, dual language)
