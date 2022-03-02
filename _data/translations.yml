@@ -6,10 +6,7 @@ main_pages:
     about: 
       name: "About"
       url: "/en/about/"
-    contact: 
-      name: "Contact"
-      url: "/en/contact"
-  
+
   pt:
     home: 
       name: "Início"
@@ -17,9 +14,6 @@ main_pages:
     about: 
       name: "Sobre"
       url: "/pt/about"
-    contact: 
-      name: "Contato"
-      url: "/pt/contact"
 
 relatedPosts:
   en: "Related Posts"
