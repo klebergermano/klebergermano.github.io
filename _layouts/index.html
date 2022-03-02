@@ -143,32 +143,17 @@ pagination:
       
 =======
       {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
-      {% capture content_words %}
-        {{ post.content | number_of_words }}
-      {% endcapture %}
-      {% capture excerpt_words %}
-        {{ post.excerpt | number_of_words }}
-      {% endcapture %}
-<<<<<<< HEAD
-=======
 
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
+
       {% if content_words != excerpt_words %}
         <a href="{{ post.url | relative_url }}">More &hellip;</a>
       {% endif %}
     {% endif %}
   </article>
   {% endfor %}
-<<<<<<< HEAD
-  {% include pagination-older.html %}
-
-{% endcomment %}
-
-=======
 
 
   {% include pagination-older.html %}
   {% include footer.html %}
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
+
 </div>

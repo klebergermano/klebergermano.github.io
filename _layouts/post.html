@@ -1,14 +1,7 @@
 ---
 layout: default
 ---
-<<<<<<< HEAD
 {% include header_content.html %}
-=======
-
-<header>
-  <h1 class="post-title">{{ page.title }}</h1>
-</header>
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
 <div class="content">
   {% include post-meta.html post=page %}
 
@@ -16,15 +9,17 @@ layout: default
     {{ content }}
     {% include post-tags.html post=page %}
   </div>
-<<<<<<< HEAD
+
   {% include footer_content.html %}
   {% include comments.html %}
   {% include related_posts.html %}
-=======
 {% include footer.html %}
 
   {% include comments.html %}
   {% include related_posts.html %}
   
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
+
+  {% include footer.html %}
+  {% include comments.html %}
+  {% include related_posts.html %}
 </div>

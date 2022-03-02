@@ -7,6 +7,7 @@ main_pages:
       name: "About"
       url: "/en/about/"
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     contact: 
@@ -14,6 +15,9 @@ main_pages:
       url: "/en/contact"
   
 >>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
+=======
+
+>>>>>>> a06fcd1 (ajuste basico about)
   pt:
     home: 
       name: "Início"
@@ -21,6 +25,7 @@ main_pages:
     about: 
       name: "Sobre"
       url: "/pt/about"
+<<<<<<< HEAD
 <<<<<<< HEAD
       
 changeLang:
@@ -31,6 +36,8 @@ changeLang:
       name: "Contato"
       url: "/pt/contact"
 >>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
+=======
+>>>>>>> a06fcd1 (ajuste basico about)
 
 relatedPosts:
   en: "Related Posts"
