@@ -1116,7 +1116,7 @@ button.disqus-load {
 }
 
 #about_page span {
-  font-weight: bold;
+  color: #c55104;
 }
 
 #header_content {
@@ -1144,6 +1144,63 @@ button.disqus-load {
 
 .content {
   max-width: 1170px;
+}
+
+.bg_change_lang_site {
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+.bg_change_lang_site em {
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+.bg_change_lang_site ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100% !important;
+  padding: 20px 10px;
+  margin: 0px;
+}
+.bg_change_lang_site ul li {
+  display: flex !important;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0px !important;
+  font-size: 15px;
+  list-style: none;
+}
+.bg_change_lang_site ul li a {
+  padding: 5px;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-radius: 3px;
+}
+.bg_change_lang_site ul li a span {
+  display: block;
+  flex-grow: 1;
+  margin-right: 5px;
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 30px;
+  max-height: 30px;
+}
+.bg_change_lang_site ul li a .pt_icon_lang {
+  background: url("../img/pt-br-flag.jpg");
+  background-size: 100% 100%;
+}
+.bg_change_lang_site ul li a .en_icon_lang {
+  background: url("../img/en-flag.jpg");
+  background-size: 100% 100%;
+}
+.bg_change_lang_site ul li a:hover {
+  background: #333;
 }
 
 .bg_lang_options em {
