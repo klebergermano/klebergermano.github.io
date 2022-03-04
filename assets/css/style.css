@@ -1116,7 +1116,11 @@ button.disqus-load {
 }
 
 #about_page span {
+<<<<<<< HEAD
   color: #c55104;
+=======
+  font-weight: bold;
+>>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
 }
 
 #header_content {
@@ -1142,6 +1146,7 @@ button.disqus-load {
   max-width: 1170px !important;
 }
 
+<<<<<<< HEAD
 .block_example {
   display: flex;
   flex-wrap: wrap;
@@ -1188,10 +1193,13 @@ button.disqus-load {
   text-align: center;
 }
 
+=======
+>>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
 .content {
   max-width: 1170px;
 }
 
+<<<<<<< HEAD
 .bg_posts_excerpt {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1266,6 +1274,8 @@ button.disqus-load {
   background: #333;
 }
 
+=======
+>>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
 .bg_lang_options em {
   text-align: center;
 }
@@ -1285,10 +1295,16 @@ button.disqus-load {
 .bg_lang_options .icon_lang {
   border-radius: 50%;
   overflow: hidden;
+<<<<<<< HEAD
   width: 28px;
   height: 25px;
   float: left;
   margin-top: 2px;
+=======
+  width: 35px;
+  height: 30px;
+  float: left;
+>>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
 }
 .bg_lang_options .pt_icon_lang {
   background: url("../img/pt-br-flag.jpg");

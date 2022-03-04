@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
 /*
   Most of these imports are derived from https://github.com/poole/poole.
   Designed, built, and released under MIT license by @mdo.
 */
+<<<<<<< HEAD
 // Theme SASS
+=======
+//Theme SASS
+>>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
 @import 'hydeout/variables';
 @import 'hydeout/base';
 @import 'hydeout/type';
@@ -17,6 +25,7 @@
 @import 'hydeout/tags';
 @import 'hydeout/back-link';
 
+<<<<<<< HEAD
 // My SASS
 @import 'homepage';
 @import 'about';
@@ -161,3 +170,53 @@ border-radius: 5px;
 
 }
 // ------------------------------
+=======
+//My SASS
+@import 'homepage';
+@import 'about';
+@import 'header_content';
+
+
+.content{
+    max-width: 1170px;
+}
+
+// Language options ------------------------------
+.bg_lang_options{
+
+    em{ text-align: center;}
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    li{
+        list-style: none;
+        float:left;
+        margin-right:20px;
+        span{margin-right:5px;}
+  
+    }
+} 
+    .icon_lang{
+        border-radius: 50%; overflow: hidden;
+        width:35px; 
+        height:30px;
+        float:left; 
+    
+    
+    }
+    
+    .pt_icon_lang{
+        background: url('../img/pt-br-flag.jpg');
+   background-size: 100% 100%;
+    }
+    
+    .en_icon_lang{
+        background: url('../img/en-flag.jpg');
+        background-size: 100% 100%;
+    }
+  
+}
+//------------------------------
+>>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)

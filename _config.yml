@@ -49,6 +49,7 @@ github_username:  jekyll
 # Build settings
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #theme: jekyll-theme-hydeout
 
 plugins:
@@ -82,6 +83,9 @@ plugins:
 
 >>>>>>> 28642cb (Inicial theme minima installed)
 =======
+=======
+#theme: jekyll-theme-hydeout
+>>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
 
 plugins:
   - jekyll-feed
