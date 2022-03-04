@@ -1117,10 +1117,14 @@ button.disqus-load {
 
 #about_page span {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #c55104;
 =======
   font-weight: bold;
 >>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
+=======
+  color: #c55104;
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
 }
 
 #header_content {
@@ -1200,6 +1204,7 @@ button.disqus-load {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bg_posts_excerpt {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1218,6 +1223,8 @@ button.disqus-load {
   padding: 10px 0px;
 }
 
+=======
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
 .bg_change_lang_site {
   border-bottom: 1px solid #000;
   margin-bottom: 20px;
@@ -1225,6 +1232,10 @@ button.disqus-load {
   overflow: hidden;
 }
 .bg_change_lang_site em {
+<<<<<<< HEAD
+=======
+  text-align: center;
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
   width: 100%;
   display: block;
 }
@@ -1259,7 +1270,11 @@ button.disqus-load {
   margin-right: 5px;
   border-radius: 50%;
   overflow: hidden;
+<<<<<<< HEAD
   max-width: 25px;
+=======
+  max-width: 30px;
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
   max-height: 30px;
 }
 .bg_change_lang_site ul li a .pt_icon_lang {
@@ -1274,8 +1289,11 @@ button.disqus-load {
   background: #333;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
+=======
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
 .bg_lang_options em {
   text-align: center;
 }

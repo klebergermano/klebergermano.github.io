@@ -27,6 +27,7 @@ main_pages:
       url: "/pt/about"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       
 changeLang:
   en: "Change Language"
@@ -38,6 +39,11 @@ changeLang:
 >>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
 =======
 >>>>>>> a06fcd1 (ajuste basico about)
+=======
+changeLang:
+  en: "Change Language"
+  pt: "Mudar Linguagem"
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
 
 relatedPosts:
   en: "Related Posts"

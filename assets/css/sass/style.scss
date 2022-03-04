@@ -1,16 +1,23 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
+=======
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
 /*
   Most of these imports are derived from https://github.com/poole/poole.
   Designed, built, and released under MIT license by @mdo.
 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Theme SASS
 =======
 //Theme SASS
 >>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
+=======
+// Theme SASS
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
 @import 'hydeout/variables';
 @import 'hydeout/base';
 @import 'hydeout/type';
@@ -25,6 +32,7 @@
 @import 'hydeout/tags';
 @import 'hydeout/back-link';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 // My SASS
 @import 'homepage';
@@ -172,51 +180,132 @@ border-radius: 5px;
 // ------------------------------
 =======
 //My SASS
+=======
+// My SASS
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
 @import 'homepage';
 @import 'about';
 @import 'header_content';
 
 
-.content{
+.content {
     max-width: 1170px;
 }
 
-// Language options ------------------------------
-.bg_lang_options{
+// Change Language Site  ------------------------------
 
-    em{ text-align: center;}
-    ul{
+.bg_change_lang_site {
+
+
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    em {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    ul {
         display: flex;
         justify-content: center;
         align-items: center;
-    
-    li{
-        list-style: none;
-        float:left;
-        margin-right:20px;
-        span{margin-right:5px;}
-  
+        overflow: hidden;
+        width:100% !important;
+        padding:20px 10px;
+        margin:0px;
+
+        li {
+            display: flex !important;
+            align-items: center;
+            flex-grow: 1; flex-shrink: 1;
+            margin:0px !important;
+            font-size: 15px;
+            list-style: none;
+
+            a {
+                padding:5px;
+                display: flex;
+                flex-grow: 1;
+                flex-shrink: 1;
+                border-radius: 3px;
+
+                span {
+                    display: block;
+                    flex-grow: 1;
+
+                    margin-right: 5px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    max-width: 30px;
+                    max-height: 30px;
+                }
+                .pt_icon_lang {
+                    background: url('../img/pt-br-flag.jpg');
+                    background-size: 100% 100%;
+                }
+
+                .en_icon_lang {
+                    background: url('../img/en-flag.jpg');
+                    background-size: 100% 100%;
+                }
+
+            &:hover{
+                background:#333;
+            }
+            }
+
+        }
+
     }
-} 
-    .icon_lang{
-        border-radius: 50%; overflow: hidden;
-        width:35px; 
-        height:30px;
-        float:left; 
-    
-    
+
+
+}
+// Post / Page Language ------------------------------------------
+.bg_lang_options {
+
+    em {
+        text-align: center;
     }
-    
-    .pt_icon_lang{
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            list-style: none;
+            float: left;
+            margin-right: 20px;
+            span {
+                margin-right: 5px;
+            }
+
+        }
+    }
+    .icon_lang {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 35px;
+        height: 30px;
+        float: left;
+
+
+    }
+
+    .pt_icon_lang {
         background: url('../img/pt-br-flag.jpg');
-   background-size: 100% 100%;
+        background-size: 100% 100%;
     }
-    
-    .en_icon_lang{
+
+    .en_icon_lang {
         background: url('../img/en-flag.jpg');
         background-size: 100% 100%;
     }
-  
+
 }
+<<<<<<< HEAD
 //------------------------------
 >>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
+=======
+// ------------------------------
+>>>>>>> daabb0a (Change lang in sidebar adjusted)
