@@ -11,12 +11,16 @@
     <p class="lead">{{ site.description }}</p>
     <hr/>
     <!-------------Language-Links------------------>
-    {% for lang in site.data.languages %}
-    <li><a href='{{ lang[1].base_url }}''>{{lang[1].label}}</a></li>
-    {% endfor %}
-    <hr/>
+    <div class="bg_change_lang_site">
+      <em>{{ site.data.translations.changeLang[page.lang] }}:</em>
+      <ul>
+        {% for lang in site.data.languages %}
+        <li><a href='{{ lang[1].base_url }}''><span class="icon_lang {{lang[1].icon}}_icon_lang"></span>{{lang[1].label}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
     <!--------------------------------------------->
-
+  
   </header>
   {% include sidebar-nav-links.html %}
 
