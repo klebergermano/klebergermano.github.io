@@ -1,6 +1,7 @@
 en:
   label: English
 <<<<<<< HEAD
+<<<<<<< HEAD
   icon: en
   base_url: /en
 pt:
@@ -15,3 +16,11 @@ pt:
   icon: pt
   base_url: /pt/
 >>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
+=======
+  icon: en
+  base_url: /en
+pt:
+  label: Português
+  icon: pt
+  base_url: /pt
+>>>>>>> 18b3361 (Adjusts)
