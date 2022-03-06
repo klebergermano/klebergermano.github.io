@@ -2,7 +2,7 @@
 layout: post
 title: "RegExp no JS"
 date: 2019-08-30
-categories: [Javascript, RegExp]
+categories: [Javascript, Regex]
 tags: [Expressões Regulares, RegExp]
 math: true
 image: /assets/img/posts/regexp-javascript.jpeg

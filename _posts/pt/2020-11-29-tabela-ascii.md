@@ -2,7 +2,7 @@
 layout: post
 title: A Tabela ASCII
 date: 2020-11-29
-categories: [Dicionário do Programador]
+categories: [Dicionário, Dictionary]
 tags: [ASCII]
 math: true
 image: /assets/img/posts/a-tabela-ascii-01.jpg

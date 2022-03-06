@@ -1,7 +1,7 @@
 ---
 layout: post
 title: O que é Arquitetura de Software?
-categories: [Dicionário do Programador]
+categories: [Dicionário, Dictionary]
 tags: [Arquitetura de Software]
 math: true
 image: /assets/img/posts/o-que-e-arquitetura-de-software.jpg

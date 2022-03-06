@@ -4,26 +4,29 @@
         href="{{ "/" | relative_url }}">Home</a>
   {% endif %}
 
-  <!--Menu Pages-->
+  <!--Link Pages-->
   <ul>
     {% for menu in site.data.translations.main_pages[page.lang] %}
     <li><a href="{{menu[1].url}}">{{menu[1].name}}</a></li>
     {% endfor %}
   </ul>
 <!--------------------------------------------------------->
-
-  <!--TODO: Check functionality of this part of the code-->
+  
+<!--TODO: Check funcionality of this code -->
   {% if site.sidebar_blog_link %}
     <a class="page-link {% if page.url == site.sidebar_blog_link %} active{% endif %}"
 	href="{{ site.sidebar_blog_link | relative_url }}">Blog</a>
   {% endif %}
+  
   {% comment %}
     The code below dynamically generates a sidebar nav of pages with
     `sidebar_link: true` in the front-matter. See readme for usage.
   {% endcomment %}
-
   {% include page-links.html %}
+
+  <!--Categories page -->
   {% include category-links.html %}
 
+  <!--TODO: Check funcionality of this code -->
   {% include custom-nav-links.html %}
 </nav>

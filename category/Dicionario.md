@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "Dicionário do Programador"
+title: "Dictionary"
 ---
 
 Category 2: Another sample category page.
