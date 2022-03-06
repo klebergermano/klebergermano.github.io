@@ -21,6 +21,21 @@ changeLang:
 relatedPosts:
   en: "Related Posts"
   pt: "Artigos Relacionados"
+
 differentLanguage:
   en: "Read this page in a different language"
   pt: "Leia essa página em outro idioma"
+
+cagegories:
+  en: "Categories"
+  pt: "Categorias"
+
+categories_link:
+  en: 
+    Javascript: "Javascript"
+    Dictionarie: "Dictionarie"
+    Regex: "Regex" 
+  pt: 
+    Javascript: "Javascript"
+    Dicitionaries: "Dicionarios"
+    Regex: "Regex" 
