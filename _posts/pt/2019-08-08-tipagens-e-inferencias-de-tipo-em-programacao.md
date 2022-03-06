@@ -3,10 +3,14 @@ layout: post
 title: 'Tipagens e Inferências de Tipo'
 date: 2019-08-08
 <<<<<<< HEAD
+<<<<<<< HEAD
 categories: [Dicionário, Dictionary]
 =======
 categories: [Dicionário do Programador]
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+categories: [Dicionário, Dictionary]
+>>>>>>> c4b8d44 (Adjustes in layout)
 tags:
   [
     Tipagem,

@@ -1205,6 +1205,9 @@ button.disqus-load {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c4b8d44 (Adjustes in layout)
 .bg_posts_excerpt {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1223,8 +1226,11 @@ button.disqus-load {
   padding: 10px 0px;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> daabb0a (Change lang in sidebar adjusted)
+=======
+>>>>>>> c4b8d44 (Adjustes in layout)
 .bg_change_lang_site {
   border-bottom: 1px solid #000;
   margin-bottom: 20px;
@@ -1233,9 +1239,12 @@ button.disqus-load {
 }
 .bg_change_lang_site em {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   text-align: center;
 >>>>>>> daabb0a (Change lang in sidebar adjusted)
+=======
+>>>>>>> c4b8d44 (Adjustes in layout)
   width: 100%;
   display: block;
 }
@@ -1271,10 +1280,14 @@ button.disqus-load {
   border-radius: 50%;
   overflow: hidden;
 <<<<<<< HEAD
+<<<<<<< HEAD
   max-width: 25px;
 =======
   max-width: 30px;
 >>>>>>> daabb0a (Change lang in sidebar adjusted)
+=======
+  max-width: 25px;
+>>>>>>> c4b8d44 (Adjustes in layout)
   max-height: 30px;
 }
 .bg_change_lang_site ul li a .pt_icon_lang {
@@ -1314,6 +1327,7 @@ button.disqus-load {
   border-radius: 50%;
   overflow: hidden;
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 28px;
   height: 25px;
   float: left;
@@ -1323,6 +1337,12 @@ button.disqus-load {
   height: 30px;
   float: left;
 >>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
+=======
+  width: 28px;
+  height: 25px;
+  float: left;
+  margin-top: 2px;
+>>>>>>> c4b8d44 (Adjustes in layout)
 }
 .bg_lang_options .pt_icon_lang {
   background: url("../img/pt-br-flag.jpg");

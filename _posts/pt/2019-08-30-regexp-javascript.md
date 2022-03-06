@@ -3,10 +3,14 @@ layout: post
 title: "RegExp no JS"
 date: 2019-08-30
 <<<<<<< HEAD
+<<<<<<< HEAD
 categories: [Javascript, Regex]
 =======
 categories: [Javascript, RegExp]
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+categories: [Javascript, Regex]
+>>>>>>> c4b8d44 (Adjustes in layout)
 tags: [Expressões Regulares, RegExp]
 math: true
 image: /assets/img/posts/regexp-javascript.jpeg

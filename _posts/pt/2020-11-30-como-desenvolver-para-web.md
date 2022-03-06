@@ -3,10 +3,14 @@ layout: post
 title: "Como Desenvolver para Web?"
 date: 2020-03-19 02:10:00
 <<<<<<< HEAD
+<<<<<<< HEAD
 categories: [Desenvolvimento Web, Web Development]
 =======
 categories: Desenvolvimento Web
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+categories: [Desenvolvimento Web, Web Development]
+>>>>>>> c4b8d44 (Adjustes in layout)
 tags: [Desenvolvimento Web]
 image: /assets/img/posts/como-desenvolver-para-web.jpg
 lang: pt

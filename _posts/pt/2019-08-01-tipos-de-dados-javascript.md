@@ -3,19 +3,27 @@ layout: post
 title: "Javascript: Quais são os tipos de dados do JS?"
 date: 2019-07-08
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 categories: Javascript
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+>>>>>>> c4b8d44 (Adjustes in layout)
 tags: [Tipos Primitivos, Tipo Objeto]
 math: true
 image: /assets/img/posts/tipos-de-dados-javascript.jpg
 lang: pt
 lang-ref: " What is the data types of JS?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 categories: Javascript
 
 =======
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+categories: Javascript
+
+>>>>>>> c4b8d44 (Adjustes in layout)
 ---
 
 Em Javascript ou qualquer outra linguagem temos a necessidade de armazenas e manipular dados, informações, etc.

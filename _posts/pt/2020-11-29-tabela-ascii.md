@@ -7,10 +7,14 @@ layout: post
 title: A Tabela ASCII
 date: 2020-11-29
 <<<<<<< HEAD
+<<<<<<< HEAD
 categories: [Dicionário, Dictionary]
 =======
 categories: [Dicionário do Programador]
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+categories: [Dicionário, Dictionary]
+>>>>>>> c4b8d44 (Adjustes in layout)
 tags: [ASCII]
 math: true
 image: /assets/img/posts/a-tabela-ascii-01.jpg

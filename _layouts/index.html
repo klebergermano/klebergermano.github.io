@@ -76,16 +76,37 @@ pagination:
 <!--------------------------------------------------------------------------->
 
 <!-- This loops through the paginated posts -->
+<arti class="bg_posts_excerpt">
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
+<div class="block_post_excerpt">
+  <img src="{{post.image}}" />
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {% comment %}
+
+    <p class="author">
+      <span class="date">{{ post.date }}</span>
+    </p>
+    {% endcomment %}
+
+    <p>
+    {% include post-meta.html post=post %}
   </p>
-  <div class="content">
-    {{ post.excerpt}}
+
+      {{ post.excerpt}}
+       <!------------------------------------->     
+      {% capture content_words %}
+        {{ post.content | number_of_words }}
+      {% endcapture %}
+      {% capture excerpt_words %}
+        {{ post.excerpt | number_of_words }}
+      {% endcapture %}
+      {% if content_words != excerpt_words %}
+        <a href="{{ post.url | relative_url }}">More &hellip;</a>
+      {% endif %}
+      <!------------------------------------->
   </div>
 {% endfor %}
-
+</arti><!--bg_posts-->
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -104,11 +125,11 @@ pagination:
     <span class="next ">Next</span>
   {% endif %}
 </div>
-
   {% include pagination-older.html %}
   {% include footer_content.html %}
 </div>
 
+<<<<<<< HEAD
 <!--------------------------------------------------------------------------->
 <<<<<<< HEAD
 >>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
@@ -120,6 +141,11 @@ pagination:
 <!--------------------------------------------------------------------------->
 <!--TODO:  check this code below to see if it is useful--------------------------------------------------------------->
 >>>>>>> 56aa2bb (Basic functionalities added)
+=======
+
+<!--TODO:  check this code below to see if it is useful--------------------------------------------------------------->
+{% comment %}
+>>>>>>> c4b8d44 (Adjustes in layout)
 
   {% include pagination-newer.html %}
   {{ content }}
@@ -140,11 +166,21 @@ pagination:
 
     {% if post.excerpt %}
 <<<<<<< HEAD
+<<<<<<< HEAD
       
 =======
       {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
 
 
+=======
+      
+      {% capture content_words %}
+        {{ post.content | number_of_words }}
+      {% endcapture %}
+      {% capture excerpt_words %}
+        {{ post.excerpt | number_of_words }}
+      {% endcapture %}
+>>>>>>> c4b8d44 (Adjustes in layout)
       {% if content_words != excerpt_words %}
         <a href="{{ post.url | relative_url }}">More &hellip;</a>
       {% endif %}
@@ -153,8 +189,14 @@ pagination:
   {% endfor %}
   {% include pagination-older.html %}
 <<<<<<< HEAD
+<<<<<<< HEAD
   {% include footer.html %}
 
 =======
 >>>>>>> 18b3361 (Adjusts)
+=======
+
+{% endcomment %}
+
+>>>>>>> c4b8d44 (Adjustes in layout)
 </div>
