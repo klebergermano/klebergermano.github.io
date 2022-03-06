@@ -1146,6 +1146,24 @@ button.disqus-load {
   max-width: 1170px;
 }
 
+.bg_posts_excerpt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.block_post_excerpt {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bg_sidebar_categories {
+  border-bottom: 1px solid #000;
+  padding: 10px 0px;
+}
+
 .bg_change_lang_site {
   border-bottom: 1px solid #000;
   margin-bottom: 20px;
@@ -1153,7 +1171,6 @@ button.disqus-load {
   overflow: hidden;
 }
 .bg_change_lang_site em {
-  text-align: center;
   width: 100%;
   display: block;
 }
@@ -1188,7 +1205,7 @@ button.disqus-load {
   margin-right: 5px;
   border-radius: 50%;
   overflow: hidden;
-  max-width: 30px;
+  max-width: 25px;
   max-height: 30px;
 }
 .bg_change_lang_site ul li a .pt_icon_lang {
@@ -1222,9 +1239,10 @@ button.disqus-load {
 .bg_lang_options .icon_lang {
   border-radius: 50%;
   overflow: hidden;
-  width: 35px;
-  height: 30px;
+  width: 28px;
+  height: 25px;
   float: left;
+  margin-top: 2px;
 }
 .bg_lang_options .pt_icon_lang {
   background: url("../img/pt-br-flag.jpg");

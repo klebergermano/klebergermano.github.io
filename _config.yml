@@ -36,11 +36,11 @@ plugins:
 
 # Paginate-multiple
 paginate_multiple:
-  - paginate: 3
+  - paginate: 12
     paginate_path: '/en/page:num/'
     sub_dir: '/en'
 
-  - paginate: 3
+  - paginate: 12
     paginate_path: /pt/page:num/
     sub_dir: '/pt'
 

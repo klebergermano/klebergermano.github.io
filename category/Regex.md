@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "RegExp"
+title: "Regex"
 ---
 
 
