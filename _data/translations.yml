@@ -14,6 +14,7 @@ main_pages:
     about: 
       name: "Sobre"
       url: "/pt/about"
+      
 changeLang:
   en: "Change Language"
   pt: "Mudar Linguagem"
