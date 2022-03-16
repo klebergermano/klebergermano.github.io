@@ -28,6 +28,7 @@ main_pages:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       
 changeLang:
   en: "Change Language"
@@ -40,6 +41,9 @@ changeLang:
 =======
 >>>>>>> a06fcd1 (ajuste basico about)
 =======
+=======
+      
+>>>>>>> f162b40 (New layout)
 changeLang:
   en: "Change Language"
   pt: "Mudar Linguagem"
