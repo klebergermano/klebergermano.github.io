@@ -1,6 +1,8 @@
 .block_example{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
+<<<<<<< HEAD
     overflow: hidden;
     h4{
         flex-basis:100%;
@@ -49,4 +51,60 @@
     margin: 0 auto;
     margin-top:5px;
     text-align: center;
+=======
+    border:2px solid #f90;
+=======
+>>>>>>> d5dd63d (W.I.P - Post layout)
+    overflow: hidden;
+    h4{
+        flex-basis:100%;
+        font-weight: bold;
+    }
+
+}
+
+.ul_text_with_img_right{
+    li{
+        overflow-y:hidden;
+       list-style: disc;
+        border: 1px solid #f90;
+        img{
+            margin-left:10px;
+            float:right;
+            max-width: 250px;
+        }
+    }
+}
+
+.text_with_img_right{ 
+    padding:10px;
+    overflow: hidden;
+    flex-basis: 100%;   
+    width:100%;
+    img{
+        margin-top:0px;
+        margin-left:10px;
+        float:right;
+        width: 25%;
+        max-width: 300px;
+    }
+<<<<<<< HEAD
+>>>>>>> 80fd441 (W.I.P - Post layout)
+=======
+}
+
+
+.text_with_img_bottom{ 
+
+    img{
+        margin: 5px auto;
+        text-align: center;
+    }
+}
+
+.img_center{
+    margin: 0 auto;
+    margin-top:5px;
+    text-align: center;
+>>>>>>> d5dd63d (W.I.P - Post layout)
 }

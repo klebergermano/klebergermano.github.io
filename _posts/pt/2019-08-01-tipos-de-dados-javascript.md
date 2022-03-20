@@ -31,6 +31,7 @@ Esses valores possuem os chamados "tipos", que são a categoria a qual uma infor
 
 Em JS dois grupos de tipos; os **Tipos Primitivos** e os **Objetos**.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Tipos Primitivos
 
@@ -39,17 +40,24 @@ Os Tipos Primitivos se dividem entre:<span>strings</span>(texto),<span>numbers</
 Alem desse três temos dois tipo especiais, o<span>Null</span>e<span>Undefined</span>que são tipos “Primitivos Especiais”.
 =======
 <!--more-->
+=======
+>>>>>>> 80fd441 (W.I.P - Post layout)
 
 ## Tipos Primitivos
 
-Os Tipos Primitivos se dividem entre: <span>strings</span> (texto), <span>numbers</span> (numéricos), <span>booleans</span> (boleanos).
+Os Tipos Primitivos se dividem entre:<span>strings</span>(texto),<span>numbers</span>(numéricos),<span>booleans</span>(boleanos).
 
+<<<<<<< HEAD
 Alem desse três temos dois tipo especiais, o <span>Null</span> e <span>Undefined</span> que são tipos “Primitivos Especiais”.
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+Alem desse três temos dois tipo especiais, o<span>Null</span>e<span>Undefined</span>que são tipos “Primitivos Especiais”.
+>>>>>>> 80fd441 (W.I.P - Post layout)
 Os Primitivos Especiais são únicos na sua própria classificação.
 
 Para descobrir o tipo de uma informação em JS podemos usar o comando
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ``` javascript
 typeof
@@ -65,16 +73,28 @@ typeof
 Por xemplo, caso seja realizado um _typeof_ em qualquer texto, esse retornara como _string_.
 Já um _typeof_ no tipo _undefined_ retornara _undefined_
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+``` javascript
+typeof
+```
+
+Por xemplo, caso seja realizado um *typeof* em qualquer texto, esse retornara como *string*.
+Já um *typeof* no tipo *undefined* retornara *undefined*
+>>>>>>> 80fd441 (W.I.P - Post layout)
 
 no caso do null temos um bug onde caso seja realizado o teste esse retornara “object”.
 
 Input
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ``` javascript
 =======
 ```javascript
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+``` javascript
+>>>>>>> 80fd441 (W.I.P - Post layout)
 console.log(typeof null); // Output: Object
 console.log(typeof undefined); // Output: undefined
 ```
@@ -84,6 +104,7 @@ console.log(typeof undefined); // Output: undefined
 Em Javascript todo valor que não seja um tipo primitivo comun ou especial é um Objeto.
 
 Objetos podem ser considerados uma coleção de propriedades onde cada propriedade possui seu nome e valor.
+<<<<<<< HEAD
 <<<<<<< HEAD
 saiba mais aqui: <a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Objetos/B%C3%A1sico" target="_blank">Objetos Javascript</a>
 
@@ -127,3 +148,25 @@ Temos abaixo uma lista mais completa dos possiveis retornos de tipo, quando usad
 
 - Null não é um _objeto_, seu retorno como object é considerado um bug pela Mozilla - [http://2ality.com/2013/10/typeof-null.html](http://2ality.com/2013/10/typeof-null.html)
 >>>>>>> 07f58bf (New blog, dual language)
+=======
+saiba mais aqui: <a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Objetos/B%C3%A1sico" target="_blank">Objetos Javascript</a>
+
+## Retornos do typeof
+
+Temos abaixo uma lista mais completa dos possiveis retornos de tipo, quando usado o<span>typeof</span>
+
+| Typeof | Resultado |
+| ------ | :-------: |
+| undefined | undefined |
+| Null | object |
+| Boolean | boolean |
+| Number | number |
+| String | String |
+| Host object (provided by the JS environment) | Implementation-dependent |
+| Function object (implements [[Call]] in ECMA-262 terms) | "function" |
+| E4X XML object | xml |
+| E4X XMLList object xml | xml |
+| Outros Objetos | object |
+
+* Null não é um *objeto*, seu retorno como object é considerado um bug pela Mozilla - [http://2ality.com/2013/10/typeof-null.html](http://2ality.com/2013/10/typeof-null.html)
+>>>>>>> 80fd441 (W.I.P - Post layout)

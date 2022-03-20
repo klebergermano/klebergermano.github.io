@@ -1151,13 +1151,25 @@ button.disqus-load {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .block_example {
   display: flex;
   flex-wrap: wrap;
+=======
+.block_example {
+  display: flex;
+  flex-wrap: wrap;
+<<<<<<< HEAD
+  border: 2px solid #f90;
+>>>>>>> 80fd441 (W.I.P - Post layout)
+=======
+>>>>>>> d5dd63d (W.I.P - Post layout)
   overflow: hidden;
 }
 .block_example h4 {
   flex-basis: 100%;
+<<<<<<< HEAD
+<<<<<<< HEAD
   font-weight: bold;
 }
 
@@ -1182,10 +1194,48 @@ button.disqus-load {
   margin-top: 0px;
   margin-left: 10px;
   float: right;
+=======
+=======
+  font-weight: bold;
+>>>>>>> d5dd63d (W.I.P - Post layout)
+}
+
+.ul_text_with_img_right li {
+  overflow-y: hidden;
+  list-style: disc;
+  border: 1px solid #f90;
+}
+<<<<<<< HEAD
+.block_example img {
+  flex-basis: 0;
+  border: 2px solid #f90;
+>>>>>>> 80fd441 (W.I.P - Post layout)
+=======
+.ul_text_with_img_right li img {
+  margin-left: 10px;
+  float: right;
+  max-width: 250px;
+}
+
+.text_with_img_right {
+  padding: 10px;
+  overflow: hidden;
+  flex-basis: 100%;
+  width: 100%;
+}
+.text_with_img_right img {
+  margin-top: 0px;
+  margin-left: 10px;
+  float: right;
+>>>>>>> d5dd63d (W.I.P - Post layout)
   width: 25%;
   max-width: 300px;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d5dd63d (W.I.P - Post layout)
 .text_with_img_bottom img {
   margin: 5px auto;
   text-align: center;
@@ -1197,8 +1247,13 @@ button.disqus-load {
   text-align: center;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> ed4f2fd (Change Hydeout Folder and CSS/SASS structure)
+=======
+>>>>>>> 80fd441 (W.I.P - Post layout)
+=======
+>>>>>>> d5dd63d (W.I.P - Post layout)
 .content {
   max-width: 1170px;
 }
