@@ -1,0 +1,205 @@
+{
+  "name": "",
+  "isOrdered": true,
+  "folders": {
+    "assets": {
+      "name": "assets",
+      "isOrdered": true,
+      "folders": {
+        "css": {
+          "name": "css",
+          "isOrdered": true,
+          "folders": {
+            "sass": {
+              "name": "sass",
+              "isOrdered": true,
+              "folders": {
+                "abstracts": {
+                  "name": "abstracts",
+                  "isOrdered": true,
+                  "folders": {},
+                  "files": {}
+                },
+                "hydeout": {
+                  "name": "hydeout",
+                  "isOrdered": true,
+                  "folders": {},
+                  "files": {}
+                }
+              },
+              "files": {}
+            }
+          },
+          "files": {}
+        },
+        "img": {
+          "name": "img",
+          "isOrdered": true,
+          "folders": {
+            "posts": {
+              "name": "posts",
+              "isOrdered": true,
+              "folders": {},
+              "files": {}
+            }
+          },
+          "files": {}
+        }
+      },
+      "files": {}
+    },
+    "category": {
+      "name": "category",
+      "isOrdered": true,
+      "folders": {},
+      "files": {
+        "JS": 0,
+        "Dicionario": 1,
+        "Regex": 2
+      }
+    },
+    "en": {
+      "name": "en",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "pt": {
+      "name": "pt",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_data": {
+      "name": "_data",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_includes": {
+      "name": "_includes",
+      "isOrdered": true,
+      "folders": {
+        "svg": {
+          "name": "svg",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        }
+      },
+      "files": {}
+    },
+    "_layouts": {
+      "name": "_layouts",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_posts": {
+      "name": "_posts",
+      "isOrdered": true,
+      "folders": {
+        "en": {
+          "name": "en",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "pt": {
+          "name": "pt",
+          "isOrdered": true,
+          "folders": {
+            "_drafts": {
+              "name": "_drafts",
+              "isOrdered": true,
+              "folders": {},
+              "files": {}
+            }
+          },
+          "files": {
+            "2019-08-01-tipos-de-dados-javascript": 0,
+            "2019-08-01-introduction-to-computing": 1,
+            "2019-08-08-tipagens-e-inferencias-de-tipo-em-programacao": 2,
+            "2019-08-30-regexp-javascript": 3,
+            "2020-11-24-o-que-e-arquitetura-de-software": 4,
+            "2020-11-29-o-que-e-dns": 5,
+            "2020-11-29-o-que-e-dom": 6,
+            "2020-11-29-o-que-sao-expressoes-regulares": 7,
+            "2020-11-29-tabela-ascii": 8,
+            "2020-11-30-como-desenvolver-para-web": 9,
+            "2020-11-30-introducao-a-banco-de-dados": 10
+          }
+        }
+      },
+      "files": {}
+    },
+    "_sass": {
+      "name": "_sass",
+      "isOrdered": true,
+      "folders": {},
+      "files": {}
+    },
+    "_site": {
+      "name": "_site",
+      "isOrdered": true,
+      "folders": {
+        "assets": {
+          "name": "assets",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "blogging": {
+          "name": "blogging",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "category": {
+          "name": "category",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "data base": {
+          "name": "data base",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "desenvolvimento web": {
+          "name": "desenvolvimento web",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "dicionário": {
+          "name": "dicionário",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "en": {
+          "name": "en",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "javascript": {
+          "name": "javascript",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        },
+        "pt": {
+          "name": "pt",
+          "isOrdered": true,
+          "folders": {},
+          "files": {}
+        }
+      },
+      "files": {}
+    }
+  },
+  "files": {}
+}
