@@ -1142,6 +1142,27 @@ button.disqus-load {
   max-width: 1170px !important;
 }
 
+.block_example {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #f90;
+  overflow: hidden;
+}
+.block_example h4 {
+  flex-basis: 100%;
+}
+.block_example p {
+  display: block;
+  border: 2px solid #f90;
+  max-width: 75%;
+}
+.block_example img {
+  flex-basis: 0;
+  border: 2px solid #f90;
+  width: 25%;
+  max-width: 300px;
+}
+
 .content {
   max-width: 1170px;
 }
