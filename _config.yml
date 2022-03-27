@@ -27,6 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://klebergermano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 =======
@@ -47,6 +48,10 @@ baseurl: "klebergermano.github.io" # the subpath of your site, e.g. /blog
 >>>>>>> ef188a9 (Adjusts)
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 >>>>>>> 28642cb (Inicial theme minima installed)
+=======
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://klebergermano.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+>>>>>>> 8e3d724 (Update _config.yml)
 twitter_username: jekyllrb
 github_username:  jekyll
 
