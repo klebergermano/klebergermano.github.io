@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+  <head>
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      INTRODUÇÃO A BANCO DE DADOS &middot; Kleber Germano
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        Kleber Germano
+      </a>
+    </div>
+    <p class="lead">Magic stuff about programming.</p>
+    <hr/>
+    <!-------------Language-Links------------------>
+    <div class="bg_change_lang_site">
+      <em>Mudar Linguagem:</em>
+      <ul>
+        
+        <li><a href='/en''><span class="icon_lang en_icon_lang"></span>English</a></li>
+        
+        <li><a href='/pt''><span class="icon_lang pt_icon_lang"></span>Português</a></li>
+        
+      </ul>
+    </div>
+    <!--------------------------------------------->
+  
+  </header>
+  <nav id="sidebar-nav-links">
+  
+
+  <!--Link Pages-->
+  <ul>
+    
+    <li><a href="/pt/">Início</a></li>
+    
+    <li><a href="/pt/about">Sobre</a></li>
+    
+  </ul>
+<!--------------------------------------------------------->
+  
+<!--TODO: Check funcionality of this code -->
+  
+  
+  
+  
+
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+
+  <!--Categories page -->
+  
+<div class="bg_sidebar_categories">
+
+
+  
+
+  
+    
+    <li>
+      <a class="category-link "
+          href="/category/Dicionario.html">Dictionary</a>
+        </li>
+    
+  
+
+  
+    
+    <li>
+      <a class="category-link "
+          href="/category/JS.html">Javascript</a>
+        </li>
+    
+  
+
+  
+    
+    <li>
+      <a class="category-link "
+          href="/category/Regex.html">Regex</a>
+        </li>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+</div>
+
+  <!--TODO: Check funcionality of this code -->
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+    
+  <nav id="sidebar-icon-links">
+  
+
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="/feed.xml">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+  </a>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+
+  <p>
+  &copy; 2022.
+  <a href="/LICENSE.md">MIT License.</a>
+</p>
+
+</div>
+
+    <main class="container">
+      <header id="header_content">
+    
+
+
+    <h1 class="page-title">INTRODUÇÃO A BANCO DE DADOS</h1>
+    <!--Options of multilanguage content-->
+    
+    
+    
+    
+        <div class="bg_lang_options">
+            <em>Leia essa página em outro idioma:</em>
+            <div class="bg_lang_options">
+                <ul>
+                    
+                        <li>
+                            <a href="/blogging/tutorial/2019/08/10/customize-the-favicon.html" class="" title="View in ">
+                                <span class="icon_lang _icon_lang"></span>
+                                
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/blogging/tutorial/2019/08/09/getting-started.html" class="" title="View in ">
+                                <span class="icon_lang _icon_lang"></span>
+                                
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/blogging/tutorial/2019/08/08/write-a-new-post.html" class="" title="View in ">
+                                <span class="icon_lang _icon_lang"></span>
+                                
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/blogging/demo/2019/08/08/text-and-typography-copy.html" class="" title="View in ">
+                                <span class="icon_lang _icon_lang"></span>
+                                
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/data%20base/banco%20de%20dados/2020/12/03/introducao-a-banco-de-dados.html" class="pt" title="View in pt">
+                                <span class="icon_lang pt_icon_lang"></span>
+                                Português
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        <!--bg_lang_options-->
+        </div>
+    
+
+<!------------------------------------------>
+
+     
+        
+</header>
+    <!--header_content-->
+
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">03 Dec 2020</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        Data Base
+      
+    
+      &bull;
+
+      
+      
+      
+
+      
+        Banco de Dados
+      
+    
+  </span>
+</div>
+
+
+  <div class="post-body">
+    <p>Banco de Dados, pode ser definido como qualquer coleção de informações armazenadas de forma organizada e relacionada; onde podemos acessar os dados armazenados para obter determinadas informações.
+<!--more-->
+Uma boa forma de se entender os Bancos de Dados atuais é olharmos para forma em que armazenávamos informações antigamente. E uma maneira muito comum de se fazer isso era usando um Arquivador Metálico, onde esse tipo de “estrutura” armazenava os dados de forma organizada, onde por exemplo poderíamos ter uma ficha de cadastro, e essa fichar era colocada em uma determinada pasta, e por sua vez essa pasta era guardada em uma das gavetas de um arquivador, assim quando quiséssemos obter alguma informação relacionada aos cadastros, bastaria acessar essa gaveta, pegar a pasta e pesquisar por seus cadastros.
+<img src="/assets/img/posts/banco-de-dados/bd-exemplo-01.png" alt="Exemplo de Arquivo" /></p>
+
+<p>Assim da mesma forma que o Arquivador do exemplo podemos dizer que um Banco de Dados nada mais é que uma estrutura que permite: Organizar, armazenar e recuperar dados.
+Se fôssemos converter essa mesma estrutura para um banco de dados (Modelo Relacional), nossas fichas seriam nossos registros e as pastas as nossas Tabelas, onde o Banco de Dados poderia ser o próprio arquivador.
+Confira a ilustração abaixo.
+<img src="/assets/img/posts/banco-de-dados/bd-exemplo-02.png" alt="Exemplo de Banco de Dados" /></p>
+
+<h2 id="origem-dos-bancos-de-dados-na-tecnologia">Origem dos Bancos de Dados na Tecnologia</h2>
+
+<p>Antes do surgimento do computador estruturas físicas parecidas como o Armários Metálico do exemplo, armazenavam todo tipo de informação, desde Livros em uma biblioteca, Fichas Policiais, Registros Hospitalares, etc. 
+Esses tipos de estruturas foram usadas por muitas décadas (ainda usada hoje em dia em algumas situações), porem esse método possui inúmera desvantagens, como a de não ser prático a procura, durabilidade das informações, e a grande desvantagem de ocupar muito espaço.
+Com a evolução dos computadores no final dos anos 50 os computadores que antes eram focados quase que inteiramente em algoritmos e cálculos para fins militares e de Pesquisa começaram a ser adquiridos empresas,</p>
+
+<p>, e com isso a necessidade de se digitalizar e armazenar dados cresceu consideravelmente.
+Até essa época os arquivos eram armazenados em fitas em um processo 0que ficou conhecido como: Arquivos Sequenciais, onde os registros eram disponibilizados em ordem sequencial onde para se acessar um dado era necessário percorrer todos os seus antecessores.
+Com a chegada os primeiros Discos Rígidos, tornou-se possível o acesso direto a arquivos, onde esses podiam ser lidos diretamente através de seus índices. Apar de representar uma grande evolução esse método ainda era rudimentar e pouco estruturado.
+Assim em 1959 foi formado um consorcio chamado CODASYL (Committee on Data Systems Languages) para principalmente alcançar o desenvolvimento de uma nova linguagem que poderia ser usada em vários tipos de programação que poderia ser usado em vários computadores e guiar o desenvolvimento novas tecnologias.
+Esse comitê ficou conhecido principalmente pelo desenvolvimento do COBOL (Common Business Oriented Language). e seus trabalhos em padronizar as interfaces de Banco de Dados.<br />
+Nessa conferência foram reunidos empresas, militares e universidade, para discutirem novas tecnologias e possibilidades para novas soluções tecnológicas, desse encontro surgiu entre outros padrões o COBOL e CODASYL Data Modele e uma nova tecnologia chamada Database (Banco de Dados).
+A Linguagem COBOL foi a primeira linguagem a de fato de preocupar tanto com o desenvolvimento de programas e algoritmos como a manipulação e armazenamento de dados.</p>
+
+<p><img src="/assets/img/posts/banco-de-dados/img-codasyl.jpg" alt="Exemplo de Arquivo" /></p>
+
+<h2 id="modelos-de-dados">Modelos de Dados</h2>
+
+<p>Os modelos de banco de dados são a formas de se organizar ou estrutur um banco de dados o que inclui as relações e restrições que determinam como os dados podem ser armazenados e acessados. Abaixo segue um apequena lista com alguns modelos.</p>
+
+<li> Modelos Hierárquicos (proposto pela IBM)</li>
+<li> Modelo em Rede (Network Database Model / CODASYL Data Model)</li>
+<li> Modelo Relacional</li>
+<li> Modelo não Relacional Baseado em Documento (NoSQL)</li>
+<li> Modelo Baseado em Objetos</li>
+
+<h2 id="modelo-relacional">Modelo Relacional</h2>
+
+<p>Criado em 1970, os Modelos Relacionais são os mais usados até hoje, e dessa lista que apresentamos podemos dizer que ele é o mais “importante”, pois além de ser o mais popular, ele ainda possuí uma maior facilidade de aprendizagem, além de estarem presentes em pequenas e grandes aplicações.
+Dessa maneira nosso curso de Banco de Dados será focado no Modelo Relacional.</p>
+
+<h2 id="sql">SQL</h2>
+
+<p>O SQL foi desenvolvido originalmente no início dos anos 70 nos laboratórios da IBM, que tinha por objetivo demonstrar a viabilidade da implementação do modelo relacional proposto por E. F. Codd. O nome original da linguagem era SEQUEL, acrônimo para “Structured English Query Language” (Linguagem de Consulta Estruturada, em Inglês) posteriormente passou a ser chamada de SQL (Structured Query Language) que significa Linguagem de Consulta Estruturada.
+SQL pode ser considerado a parte fundamental do Modelo Relacional, ele é usado para acessar e gerenciar o Banco de Dados. Através do SQL podemos adicionar, atualizar ou deletar registros em uma tabela, alem de termos acesso a subconjuntos de informações.</p>
+
+    
+
+
+
+<div class="post-tags">
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">DB</span>
+    </span>
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">BD</span>
+    </span>
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">Banco de Dados</span>
+    </span>
+  
+</div>
+  </div>
+  
+    
+    
+    
+    <footer id="footer_content">
+        <em>Leia essa página em outro idioma:</em>
+       <div class="bg_lang_options">
+        <ul>
+            
+                <li>
+                    <a href="/blogging/tutorial/2019/08/10/customize-the-favicon.html" class="" title="View in ">
+                        <span class="icon_lang _icon_lang"></span>
+                        
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="/blogging/tutorial/2019/08/09/getting-started.html" class="" title="View in ">
+                        <span class="icon_lang _icon_lang"></span>
+                        
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="/blogging/tutorial/2019/08/08/write-a-new-post.html" class="" title="View in ">
+                        <span class="icon_lang _icon_lang"></span>
+                        
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="/blogging/demo/2019/08/08/text-and-typography-copy.html" class="" title="View in ">
+                        <span class="icon_lang _icon_lang"></span>
+                        
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="/data%20base/banco%20de%20dados/2020/12/03/introducao-a-banco-de-dados.html" class="pt" title="View in pt">
+                        <span class="icon_lang pt_icon_lang"></span>
+                        Português
+                    </a>
+                </li>
+        
+        </ul>
+       </div><!--bg_lang_options-->
+    </footer>
+    
+
+  
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/inform%C3%A1tica/2022/03/20/introduction-to-computing.html">
+            Introdução a Informática
+            <small>20 Mar 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/dicion%C3%A1rio/dictionary/2020/12/01/o-que-e-dns.html">
+            O que é DNS?
+            <small>01 Dec 2020</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/dicion%C3%A1rio/dictionary/2020/11/29/o-que-e-dom.html">
+            O que é DOM?
+            <small>29 Nov 2020</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+    <!-- Optional footer content -->
+
+  </body>
+</html>
