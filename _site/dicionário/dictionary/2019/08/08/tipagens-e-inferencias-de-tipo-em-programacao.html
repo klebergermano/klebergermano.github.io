@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+  <head>
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      Tipagens e Inferências de Tipo &middot; Kleber Germano
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        Kleber Germano
+      </a>
+    </div>
+    <p class="lead">Magic stuff about programming.</p>
+    <hr/>
+    <!-------------Language-Links------------------>
+    <div class="bg_change_lang_site">
+      <em>Mudar Linguagem:</em>
+      <ul>
+        
+        <li><a href='/en''><span class="icon_lang en_icon_lang"></span>English</a></li>
+        
+        <li><a href='/pt''><span class="icon_lang pt_icon_lang"></span>Português</a></li>
+        
+      </ul>
+    </div>
+    <!--------------------------------------------->
+  
+  </header>
+  <nav id="sidebar-nav-links">
+  
+
+  <!--Link Pages-->
+  <ul>
+    
+    <li><a href="/pt/">Início</a></li>
+    
+    <li><a href="/pt/about">Sobre</a></li>
+    
+  </ul>
+<!--------------------------------------------------------->
+  
+<!--TODO: Check funcionality of this code -->
+  
+  
+  
+  
+
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+
+  <!--Categories page -->
+  
+<div class="bg_sidebar_categories">
+
+
+  
+
+  
+    
+    <li>
+      <a class="category-link "
+          href="/category/Dicionario.html">Dictionary</a>
+        </li>
+    
+  
+
+  
+    
+    <li>
+      <a class="category-link "
+          href="/category/JS.html">Javascript</a>
+        </li>
+    
+  
+
+  
+    
+    <li>
+      <a class="category-link "
+          href="/category/Regex.html">Regex</a>
+        </li>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+</div>
+
+  <!--TODO: Check funcionality of this code -->
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+    
+  <nav id="sidebar-icon-links">
+  
+
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="/feed.xml">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+  </a>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+
+  <p>
+  &copy; 2022.
+  <a href="/LICENSE.md">MIT License.</a>
+</p>
+
+</div>
+
+    <main class="container">
+      <header id="header_content">
+    
+
+
+    <h1 class="page-title">Tipagens e Inferências de Tipo</h1>
+    <!--Options of multilanguage content-->
+    
+    
+    
+    
+
+<!------------------------------------------>
+
+     
+        
+</header>
+    <!--header_content-->
+
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">08 Aug 2019</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        Dicionário
+      
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/Dicionario.html">
+          Dictionary
+        </a>
+      
+    
+  </span>
+</div>
+
+
+  <div class="post-body">
+    <h2 id="inferência-de-tipo">Inferência de Tipo</h2>
+
+<p>A inferência de tipo diz-se da linguagem que tem a capacidade de determinar o tipo de variável mesmo que esse não tenha sido explicitamente declarado.
+<!--more-->
+Por exemplo</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">n</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="c1">// caso a linguagem possua inferência de tipo não precisamos explicitamente</span>
+<span class="c1">//declarar seu tipo deixando essa tarefa para o próprio interpretador da linguagem</span>
+</code></pre></div></div>
+<div class="language-c# highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">var</span> <span class="kt">int</span> <span class="n">n</span> <span class="p">=</span> <span class="m">1</span>
+<span class="c1">// nesse caso precisamos explicitamente declarar o tipo já que a linguagem  não possui</span>
+<span class="c1">//  inferência de tipo ou seja ela não infere qual o tipo de dado que esta sendo atribuído.</span>
+</code></pre></div></div>
+
+<p>Duas Linguagens comuns que possuem inferência de tipo são Javascript e Python.</p>
+
+<h2 id="tipagem-forte-e-fraca">Tipagem Forte e Fraca</h2>
+
+<p>Tipagem Forte e Fraca é a capacidade da linguagem analisar os tipos de dados em tempo de execução ou compilação, impedindo por exemplo que tipos diferentes operem (caso seja Forte) ou concatenando esses tipos (caso seja Fraca) .
+Por exemplo:
+var n = 1
+n += “casa”
+Linguagem de Tipagem Fraca como o Javascript procedem com essa operação fazendo uma concatenação entre os tipos diferentes ou seja n passa a ter o valor de “1casa”;</p>
+
+<p>Outras linguagens como o Python que possuem Tipagem Forte não permitem esse tipo de operação retornando um erro de “tipos diferentes” sendo a primeira um integer e o segundo uma string
+Tipagem Estática e Dinâmica</p>
+
+<h2 id="tipagem-dinâmica">Tipagem Dinâmica</h2>
+
+<p>A Tipagem Dinâmica ou Estática se refere a capacidade que a linguagem tem de assegurar que uma variável tenha seu tipo de dado alterado durante a compilação ou interpretação do código.
+Por exemplo
+var int n = 1
+n = “chocolate”
+Uma linguagem de Tipo Estático retorna erro pois tentamos passar uma string para uma variável que previamente havia sido declarada como integer</p>
+
+<p>Já uma linguagem de tipo Dinâmico essa troca seria feita sem apresentar nenhum tipo de erro, pois o Tipo de dado na variável pode ser alterado dinamicamente durante a compilação/interpretação do código</p>
+
+<h2 id="resumo">Resumo:</h2>
+
+<p>Inferência de Tipo: <em>Atribui automaticamente o tipo de dado à variável.</em></p>
+
+<p>Tipagem Forte: <em>Não permite operações entre tipos diferentes de dados.</em></p>
+
+<p>Tipagem Fraca: <em>Permite operações entre tipos diferentes de dados.</em></p>
+
+<p>Tipagem Estática: <em>Não permite que uma variável receba um valor diferente do que o previamente declarado ou inferido.</em></p>
+
+<p>Tipagem Dinâmica: <em>Permite que uma variável receba um valor diferente do que o previamente declarado ou inferido.</em></p>
+
+<h3 id="algumas-linguagens-e-suas-tipagens">Algumas Linguagens e suas tipagens</h3>
+
+<p>C# – Tem Inferência de Tipo, Tipagem Forte, Tipagem Estática</p>
+
+<p>JS – Tem Inferência de Tipo, Tipagem Forte e Tipagem Dinâmica.</p>
+
+<p>Python – Tem Inferência de Tipo, Tipagem Forte e Tipagem Dinâmica</p>
+
+    
+
+
+
+<div class="post-tags">
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">Tipagem</span>
+    </span>
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">Inferência de Tipo</span>
+    </span>
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">Tipagem Forte</span>
+    </span>
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">Tipagem Fraca</span>
+    </span>
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">Tipagem Dinâmica</span>
+    </span>
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">Tipagem Estática</span>
+    </span>
+  
+</div>
+  </div>
+  
+    
+    
+    
+
+  
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/inform%C3%A1tica/2022/03/20/introduction-to-computing.html">
+            Introdução a Informática
+            <small>20 Mar 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/data%20base/banco%20de%20dados/2020/12/03/introducao-a-banco-de-dados.html">
+            INTRODUÇÃO A BANCO DE DADOS
+            <small>03 Dec 2020</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/dicion%C3%A1rio/dictionary/2020/12/01/o-que-e-dns.html">
+            O que é DNS?
+            <small>01 Dec 2020</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+    <!-- Optional footer content -->
+
+  </body>
+</html>
