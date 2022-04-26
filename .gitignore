@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# hidden files
+
 .*
 !.github
 !.gitignore
@@ -20,9 +19,8 @@ Gemfile.lock
 # bundle cache
 _site
 _site_ghpages
-=======
-_site
->>>>>>> 28642cb (Inicial theme minima installed)
+
+
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
