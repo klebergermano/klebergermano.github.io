@@ -20,6 +20,7 @@ Gemfile.lock
 # bundle cache
 =======
 _site
+_site_ghpages
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
