@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+  <head>
+  <link href="https://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      O que são Expressões Regulares (RegExp)? &middot; Kleber Germano
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="post">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        Kleber Germano
+      </a>
+    </div>
+    <p class="lead">Magic stuff about programming.</p>
+    <hr/>
+    <!-------------Language-Links------------------>
+    <div class="bg_change_lang_site">
+      <em>Mudar Linguagem:</em>
+      <ul>
+        
+        <li><a href='/en''><span class="icon_lang en_icon_lang"></span>English</a></li>
+        
+        <li><a href='/pt''><span class="icon_lang pt_icon_lang"></span>Português</a></li>
+        
+      </ul>
+    </div>
+    <!--------------------------------------------->
+  
+  </header>
+  <nav id="sidebar-nav-links">
+  
+
+  <!--Link Pages-->
+  <ul>
+    
+    <li><a href="/pt/">Início</a></li>
+    
+    <li><a href="/pt/about">Sobre</a></li>
+    
+  </ul>
+<!--------------------------------------------------------->
+  
+<!--TODO: Check funcionality of this code -->
+  
+  
+  
+  
+
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+
+  <!--Categories page -->
+  
+<div class="bg_sidebar_categories">
+
+
+  
+
+  
+    
+    <li>
+      <a class="category-link "
+          href="/category/Dicionario.html">Dictionary</a>
+        </li>
+    
+  
+
+  
+    
+    <li>
+      <a class="category-link "
+          href="/category/JS.html">Javascript</a>
+        </li>
+    
+  
+
+  
+    
+    <li>
+      <a class="category-link "
+          href="/category/Regex.html">Regex</a>
+        </li>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+</div>
+
+  <!--TODO: Check funcionality of this code -->
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+    
+  <nav id="sidebar-icon-links">
+  
+
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="/feed.xml">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+  </a>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+
+  <p>
+  &copy; 2022.
+  <a href="/LICENSE.md">MIT License.</a>
+</p>
+
+</div>
+
+    <main class="container">
+      <header id="header_content">
+    
+
+
+    <h1 class="page-title">O que são Expressões Regulares (RegExp)?</h1>
+    <!--Options of multilanguage content-->
+    
+    
+    
+    
+
+<!------------------------------------------>
+
+     
+        
+</header>
+    <!--header_content-->
+
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date">29 Nov 2020</span>
+  <span class="post-categories">
+    
+      &bull;
+
+      
+      
+      
+
+      
+        Dicionário
+      
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/Dicionario.html">
+          Dictionary
+        </a>
+      
+    
+      &bull;
+
+      
+      
+      
+
+      
+        <a href="/category/Regex.html">
+          Regex
+        </a>
+      
+    
+  </span>
+</div>
+
+
+  <div class="post-body">
+    <p>Expressões Regulares (RegExp ou RegEx) são um conjunto de expressões formadas por símbolos que possibilitam a analise e edição de um conjunto de caracteres (Textos). permitindo a construção de filtros e edições automáticas de maneira mais simples e menos verbosa no que se diz respeito a programação.
+<!--more--></p>
+
+<h2 id="quando-surgiu">Quando surgiu?</h2>
+
+<p>O conceito surgiu em 1943 em uma teoria sobre neurônios, antes mesmo do primeiro modelo de computador, alguns anos depois esse conceito recebeu símbolos para representar esses grupos regulares, com isso surgiu a notação das Expressões Regulares.
+Ainda demoraria alguns anos para RegExp chegar aos computadores, começando a ser aplicado somente em 1968 em um algoritmo de busca do sistema Unix.</p>
+
+<p>Em 1986 as Expressões Regulares passaram a fazer definitivamente parte da computação, com a implementação de um pacote para C chamado Regex, que permitia que qualquer um tratasse e incluísse Expressões Regulares em seus programas.</p>
+
+<h2 id="regexp-sabores">RegExp Sabores</h2>
+
+<p>Não existe um único padrão para as RegExp (Regular Expression) sendo assim surgiu o termo Sabor (Flavor) é comumente usada para determinar qual o padrão de Regex é utilizado por uma linguagem ou biblioteca.</p>
+
+<h3 id="alguns-do-sabores">Alguns do Sabores</h3>
+
+<p>.NET, Java, Javascript, PCRE, Pearl, Python, Ruby</p>
+
+<p><a href="http://xregexp.com/">XRegExp</a> é uma biblioteca open-source desenvolvida para apliar as funções do RegExp Javascript padrão e também para evitar bugs e inconsistências entre os Browsers.</p>
+
+<p><a href="https://www.pcre.org/">PCRE</a> significa “Perl-Compatible Regular Expressions” que é uma biblioteca popular, compatível com o Pear-flavor.</p>
+
+<h2 id="procurar-e-substituir">Procurar e Substituir</h2>
+
+<p>Buscas e substituir é uma das funções primordiais das Regex, Essas funções normalmente são compostas por, uma string como alvo, uma expressão e uma string substituta como input. O output é a string alvo com todas as substituições feitas pela expressão regular.</p>
+
+<p><a href="https://www.regexbuddy.com/">RegexBuddy</a> é um programa que ajuda a desenvolver, converter e testar expressões regulares de diversos tipos.</p>
+
+<p><a href="https://www.regexmagic.com/">RegexMagic</a> é uma ferramenta que agiliza a criação de Regex.</p>
+
+<p><a href="https://www.regexpal.com/">RegexPal</a> é uma aplicação online que ajuda fazer testes em regex para javacript.</p>
+
+<p><a href="https://www.regexplanet.com/">RegexPlanet</a> tester online de Regex de vários tipos.</p>
+
+    
+
+
+
+<div class="post-tags">
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">RegExp</span>
+    </span>
+  
+    <span>
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">Expressões Regulares</span>
+    </span>
+  
+</div>
+  </div>
+  
+    
+    
+    
+
+  
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/inform%C3%A1tica/2022/03/20/introduction-to-computing.html">
+            Introdução a Informática
+            <small>20 Mar 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/data%20base/banco%20de%20dados/2020/12/03/introducao-a-banco-de-dados.html">
+            INTRODUÇÃO A BANCO DE DADOS
+            <small>03 Dec 2020</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/dicion%C3%A1rio/dictionary/2020/12/01/o-que-e-dns.html">
+            O que é DNS?
+            <small>01 Dec 2020</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
+
+</div>
+
+    </main>
+    <!-- Optional footer content -->
+
+  </body>
+</html>
