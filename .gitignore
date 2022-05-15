@@ -24,4 +24,5 @@ _site_ghpages
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.jekyll-cache
 vendor
