@@ -1,90 +1,31 @@
-<!--
-  The Side Bar
-  v2.0
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2017-2019 Cotes Chung
-  MIT License
--->
-
-<div id="nav-wrapper">
-  <div id="profile-wrapper" class="d-flex flex-column">
-    <div id="avatar" class="d-flex justify-content-center">
-      <a href="{{ site.baseurl }}/" alt="avatar">
-        {% assign avatar_url = site.avatar %}
-        {% capture start %}{{ site.avatar | slice: 0 }}{% endcapture %}
-        {% if start == '/' %}
-          {% assign avatar_url = avatar_url | prepend: site.baseurl %}
-        {% endif %}
-        <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
+<div id="sidebar">
+  <header>
+    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+      <a href="{{ "/" | relative_url }}">
+        {% unless page.url == "/" %}
+          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+        {% endunless %}
+        {{ site.title }}
       </a>
+    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+    <p class="lead">{{ site.description }}</p>
+    <hr/>
+    <!-------------Language-Links------------------>
+    <div class="bg_change_lang_site">
+      <em>{{ site.data.translations.changeLang[page.lang] }}:</em>
+      <ul>
+        {% for lang in site.data.languages %}
+        <li><a href='{{ lang[1].base_url }}''><span class="icon_lang {{lang[1].icon}}_icon_lang"></span>{{lang[1].label}}</a></li>
+        {% endfor %}
+      </ul>
     </div>
-
-    <div class="profile-text mt-3">
-      <div class="site-title">
-        <a href="{{ '/' | relative_url }}">{{- site.title -}}</a>
-      </div>
-      <div class="site-subtitle font-italic">{{- site.tagline -}}</div>
-    </div>
-  </div>
-
-  <ul class="nav flex-column">
-  {% assign page_urls = page.url | split: "/" %}
-
-  {% for item in site.data.tabs %}
-    {% assign ref = site.baseurl | append: "/" %}
-
-    {% if item.path %}
-      {% assign ref = ref | append: item.path | append: "/" %}
-      {% if item.url %}
-        {% assign ref = ref | append: item.url | append: "/" %}
-      {% endif %}
+    <!--------------------------------------------->
+  
+  </header>
+  {% include sidebar-nav-links.html %}
+    {% if site.version %}
+      <span class="site-version">Currently v{{ site.version }}</span>
     {% endif %}
-
-    <li class="nav-item d-flex justify-content-center
-      {% if item.url == page_urls.last
-        or item.name == page.tab_active
-        or item.name == "Home" and page.layout == "home" %}active{% endif %}">
-      <a href="{{ ref }}" class="nav-link d-flex justify-content-center align-items-center w-100">
-        <i class="fa-fw {{ item.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
-        <span>{{ item.name | upcase }}</span>
-      </a>
-    </li> <!-- .nav-item -->
-  {% endfor %}
-
-  </ul> <!-- ul.nav.flex-column -->
-
-</div><!-- #nav-wrapper -->
-
-<div class="sidebar-bottom d-flex flex-wrap justify-content-around mt-4">
-
-  {% if site.theme_mode == "dual" %}
-  <span id="mode-toggle-wrapper">
-    {% include mode-toggle.html %}
-  </span>
-  <span class="icon-border"></span>
-  {% endif %}
-
-  {% for entry in site.data.contact %}
-    {% capture url %}
-      {%- if entry.type == 'github' -%}
-        https://github.com/{{ site.github.username }}
-      {%- elsif entry.type == 'twitter' -%}
-        https://twitter.com/{{ site.twitter.username }}
-      {%- elsif entry.type == 'email' -%}
-        {% assign email = site.social.email | split: '@' %}
-        javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-      {%- elsif entry.type == 'rss' -%}
-        {{ "/feed.xml" | relative_url }}
-      {%- else -%}
-        {{ entry.url }}
-      {%- endif -%}
-    {% endcapture %}
-
-    {% if url != '' %}
-    <a href="{{ url }}" aria-label="{{ entry.type }}" {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
-      <i class="{{ entry.icon }}"></i>
-    </a>
-    {% endif %}
-  {% endfor %}
-
+  {% include sidebar-icon-links.html %}
+  {% include copyright.html %}
 </div>

@@ -1,20 +1,6 @@
-# hidden files
-.*
-!.github
-!.gitignore
- _site_ghpages
-
-# python compiled files
-*.pyc
-
-# jekyll debug
 _site
-
-# Jeykll Gemfile.lock
-Gemfile.lock
-
-# yui-compressor
-*.jar
-
-# bundle cache
+_site_ghpages
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
 vendor

@@ -1,0 +1,8 @@
+en:
+  label: English
+  icon: en
+  base_url: /en
+pt:
+  label: Português
+  icon: pt
+  base_url: /pt
