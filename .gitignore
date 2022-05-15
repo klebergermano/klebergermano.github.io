@@ -2,6 +2,7 @@
 .*
 !.github
 !.gitignore
+ _site_ghpages
 
 # python compiled files
 *.pyc
