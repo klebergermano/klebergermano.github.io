@@ -6,18 +6,7 @@ main_pages:
     about: 
       name: "About"
       url: "/en/about/"
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-    contact: 
-      name: "Contact"
-      url: "/en/contact"
-  
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
-=======
-
->>>>>>> a06fcd1 (ajuste basico about)
   pt:
     home: 
       name: "Início"
@@ -25,35 +14,14 @@ main_pages:
     about: 
       name: "Sobre"
       url: "/pt/about"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       
 changeLang:
   en: "Change Language"
   pt: "Mudar Linguagem"
-=======
-    contact: 
-      name: "Contato"
-      url: "/pt/contact"
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
-=======
->>>>>>> a06fcd1 (ajuste basico about)
-=======
-=======
-      
->>>>>>> f162b40 (New layout)
-changeLang:
-  en: "Change Language"
-  pt: "Mudar Linguagem"
->>>>>>> daabb0a (Change lang in sidebar adjusted)
 
 relatedPosts:
   en: "Related Posts"
   pt: "Artigos Relacionados"
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 differentLanguage:
   en: "Read this page in a different language"
@@ -72,28 +40,3 @@ categories_link:
     Javascript: "Javascript"
     Dicitionaries: "Dicionarios"
     Regex: "Regex" 
-=======
-differentLanguage:
-  en: "Read this page in a different language"
-  pt: "Leia essa página em outro idioma"
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
-=======
-
-differentLanguage:
-  en: "Read this page in a different language"
-  pt: "Leia essa página em outro idioma"
-
-cagegories:
-  en: "Categories"
-  pt: "Categorias"
-
-categories_link:
-  en: 
-    Javascript: "Javascript"
-    Dictionarie: "Dictionarie"
-    Regex: "Regex" 
-  pt: 
-    Javascript: "Javascript"
-    Dicitionaries: "Dicionarios"
-    Regex: "Regex" 
->>>>>>> c4b8d44 (Adjustes in layout)

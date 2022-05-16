@@ -2,15 +2,7 @@
 layout: post
 title: O que são Expressões Regulares (RegExp)?
 date: 2020-11-29
-<<<<<<< HEAD
-<<<<<<< HEAD
 categories: [Dicionário, Dictionary, Regex]
-=======
-categories: [Dicionário do Programador, RegExp]
->>>>>>> 07f58bf (New blog, dual language)
-=======
-categories: [Dicionário, Dictionary, Regex]
->>>>>>> c4b8d44 (Adjustes in layout)
 tags: [RegExp, Expressões Regulares]
 math: true
 image: /assets/img/posts/o-que-sao-expressoes-regulares-01.jpeg

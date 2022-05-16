@@ -4,80 +4,29 @@
         href="{{ "/" | relative_url }}">Home</a>
   {% endif %}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   <!--Link Pages-->
-=======
-  <!--Languages available-->
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
-=======
-  <!--Menu Pages-->
->>>>>>> daabb0a (Change lang in sidebar adjusted)
-=======
-  <!--Link Pages-->
->>>>>>> c4b8d44 (Adjustes in layout)
   <ul>
     {% for menu in site.data.translations.main_pages[page.lang] %}
     <li><a href="{{menu[1].url}}">{{menu[1].name}}</a></li>
     {% endfor %}
   </ul>
-<<<<<<< HEAD
-<<<<<<< HEAD
 <!--------------------------------------------------------->
   
 <!--TODO: Check funcionality of this code -->
-<<<<<<< HEAD
-=======
-=======
-<!--------------------------------------------------------->
->>>>>>> daabb0a (Change lang in sidebar adjusted)
-
-  <!--TODO: Check functionality of this part of the code-->
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
-=======
->>>>>>> c4b8d44 (Adjustes in layout)
   {% if site.sidebar_blog_link %}
     <a class="page-link {% if page.url == site.sidebar_blog_link %} active{% endif %}"
 	href="{{ site.sidebar_blog_link | relative_url }}">Blog</a>
   {% endif %}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   
-=======
-<!--------------------------------------------------------->
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
-=======
->>>>>>> daabb0a (Change lang in sidebar adjusted)
-=======
-  
->>>>>>> c4b8d44 (Adjustes in layout)
   {% comment %}
     The code below dynamically generates a sidebar nav of pages with
     `sidebar_link: true` in the front-matter. See readme for usage.
   {% endcomment %}
-<<<<<<< HEAD
-<<<<<<< HEAD
   {% include page-links.html %}
 
   <!--Categories page -->
   {% include category-links.html %}
 
   <!--TODO: Check funcionality of this code -->
-=======
-
-=======
->>>>>>> c4b8d44 (Adjustes in layout)
-  {% include page-links.html %}
-
-  <!--Categories page -->
-  {% include category-links.html %}
-
-<<<<<<< HEAD
->>>>>>> 2e9a591 (theme hydeout installed, with basic multilanguage)
-=======
-  <!--TODO: Check funcionality of this code -->
->>>>>>> c4b8d44 (Adjustes in layout)
   {% include custom-nav-links.html %}
 </nav>
