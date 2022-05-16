@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+_site
+_site_ghpages
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+=======
 
 .*
 !.github
@@ -25,4 +32,5 @@ _site_ghpages
 .jekyll-cache
 .jekyll-metadata
 .jekyll-cache
+>>>>>>> d1f82da06affa485428c4328b2b15581500034a1
 vendor
