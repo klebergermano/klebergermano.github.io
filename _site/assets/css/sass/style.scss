@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
   Most of these imports are derived from https://github.com/poole/poole.
   Designed, built, and released under MIT license by @mdo.
@@ -161,3 +162,168 @@ border-radius: 5px;
 
 }
 // ------------------------------
+=======
+/*
+  Most of these imports are derived from https://github.com/poole/poole.
+  Designed, built, and released under MIT license by @mdo.
+*/
+// Theme SASS
+@import 'hydeout/variables';
+@import 'hydeout/base';
+@import 'hydeout/type';
+@import 'hydeout/syntax';
+@import 'hydeout/code';
+@import 'hydeout/layout';
+@import 'hydeout/masthead';
+@import 'hydeout/posts';
+@import 'hydeout/pagination';
+@import 'hydeout/message';
+@import 'hydeout/search';
+@import 'hydeout/tags';
+@import 'hydeout/back-link';
+
+// My SASS
+@import 'homepage';
+@import 'about';
+@import 'header_content';
+@import 'posts';
+
+
+
+.content {
+    max-width: 1170px;
+}
+
+//----------------------------------------------------
+.bg_posts_excerpt{
+    display:grid; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.block_post_excerpt{
+border:1px solid #ccc; 
+padding:10px;
+border-radius: 5px;
+}
+
+//-----------------------------------------------------
+
+.bg_sidebar_categories{
+    border-bottom:1px solid #000;
+    padding: 10px 0px;
+}
+
+// Change Language Site  ------------------------------
+
+.bg_change_lang_site {
+
+
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    em {
+        width: 100%;
+        display: block;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width:100% !important;
+        padding:20px 10px;
+        margin:0px;
+
+        li {
+            display: flex !important;
+            align-items: center;
+            flex-grow: 1; flex-shrink: 1;
+            margin:0px !important;
+            font-size: 15px;
+            list-style: none;
+
+            a {
+                padding:5px;
+                display: flex;
+                flex-grow: 1;
+                flex-shrink: 1;
+                border-radius: 3px;
+
+                span {
+                    display: block;
+                    flex-grow: 1;
+
+                    margin-right: 5px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    max-width: 25px;
+                    max-height: 30px;
+                }
+                .pt_icon_lang {
+                    background: url('../img/pt-br-flag.jpg');
+                    background-size: 100% 100%;
+                }
+
+                .en_icon_lang {
+                    background: url('../img/en-flag.jpg');
+                    background-size: 100% 100%;
+                }
+
+            &:hover{
+                background:#333;
+            }
+            }
+
+        }
+
+    }
+
+
+}
+// Post / Page Language ------------------------------------------
+.bg_lang_options {
+
+    em {
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            list-style: none;
+            float: left;
+            margin-right: 20px;
+            span {
+                margin-right: 5px;
+            }
+
+        }
+    }
+    .icon_lang {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 28px;
+        height: 25px;
+        float: left;
+        margin-top:2px;
+
+
+    }
+
+    .pt_icon_lang {
+        background: url('../img/pt-br-flag.jpg');
+        background-size: 100% 100%;
+    }
+
+    .en_icon_lang {
+        background: url('../img/en-flag.jpg');
+        background-size: 100% 100%;
+    }
+
+}
+// ------------------------------
+>>>>>>> d1f82da06affa485428c4328b2b15581500034a1

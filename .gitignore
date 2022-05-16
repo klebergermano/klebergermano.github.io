@@ -1,6 +1,36 @@
+<<<<<<< HEAD
 _site
 _site_ghpages
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+=======
+
+.*
+!.github
+!.gitignore
+ _site_ghpages
+
+# python compiled files
+*.pyc
+
+# jekyll debug
+_site
+
+# Jeykll Gemfile.lock
+Gemfile.lock
+
+# yui-compressor
+*.jar
+
+# bundle cache
+_site
+_site_ghpages
+
+
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.jekyll-cache
+>>>>>>> d1f82da06affa485428c4328b2b15581500034a1
 vendor
