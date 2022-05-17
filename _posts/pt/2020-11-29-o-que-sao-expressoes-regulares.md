@@ -5,7 +5,7 @@ date: 2020-11-29
 categories: [Dicionário, Dictionary, Regex]
 tags: [RegExp, Expressões Regulares]
 math: true
-image: /assets/img/posts/o-que-sao-expressoes-regulares-01.jpeg
+image: /assets/img/posts/o-que-sao-expressoes-regulares/o-que-sao-expressoes-regulares-01.jpeg
 lang: pt
 lang-ref:  "what is regex?"
 ---

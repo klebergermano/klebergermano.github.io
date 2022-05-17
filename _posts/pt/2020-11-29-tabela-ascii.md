@@ -5,7 +5,7 @@ date: 2020-11-29
 categories: [Dicionário, Dictionary]
 tags: [ASCII]
 math: true
-image: /assets/img/posts/a-tabela-ascii-01.jpg
+image: /assets/img/posts/a-tabela-ascii/a-tabela-ascii-01.jpg
 lang: pt
 lang-ref:  "The ASCII Table"
 ---

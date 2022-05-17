@@ -4,7 +4,7 @@ title: "Javascript: Quais são os tipos de dados do JS?"
 date: 2019-07-08
 tags: [Tipos Primitivos, Tipo Objeto]
 math: true
-image: /assets/img/posts/tipos-de-dados-javascript.jpg
+image: /assets/img/posts/tipos-de-dados-javascript/tipos-de-dados-javascript.jpg
 lang: pt
 lang-ref: " What is the data types of JS?"
 categories: Javascript
@@ -15,7 +15,7 @@ Em Javascript ou qualquer outra linguagem temos a necessidade de armazenas e man
 Esses valores possuem os chamados "tipos", que são a categoria a qual uma informação pertence.
 
 Em JS dois grupos de tipos; os **Tipos Primitivos** e os **Objetos**.
-
+<!--more-->
 ## Tipos Primitivos
 
 Os Tipos Primitivos se dividem entre:<span>strings</span>(texto),<span>numbers</span>(numéricos),<span>booleans</span>(boleanos).
