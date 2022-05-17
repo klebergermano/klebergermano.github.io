@@ -5,7 +5,7 @@ date: 2019-08-30
 categories: [Javascript, Regex]
 tags: [Expressões Regulares, RegExp]
 math: true
-image: /assets/img/posts/regexp-javascript.jpeg
+image: /assets/img/posts/regexp-javascript/regexp-javascript.jpeg
 lang: pt
 lang-ref: "RegExp in JS"
 ---

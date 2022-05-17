@@ -13,7 +13,7 @@ tags:
     Tipagem Estática,
   ]
 math: true
-image: /assets/img/posts/tipagens-e-inferencias-de-tipo-em-programacao.jpg
+image: /assets/img/posts/tipagens-e-inferencias-de-tipo-em-programacao/tipagens-e-inferencias-de-tipo-em-programacao.jpg
 lang: pt
 lang-ref: 'Typing and Type Inference'
 ---

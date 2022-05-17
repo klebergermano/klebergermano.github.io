@@ -4,7 +4,7 @@ title: O que é Arquitetura de Software?
 categories: [Dicionário, Dictionary]
 tags: [Arquitetura de Software]
 math: true
-image: /assets/img/posts/o-que-e-arquitetura-de-software.jpg
+image: /assets/img/posts/o-que-e-arquitetura-de-software/o-que-e-arquitetura-de-software.jpg
 lang: pt
 lang-ref: 'what is architecture of software?'
 ---
