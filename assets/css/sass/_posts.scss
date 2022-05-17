@@ -1,7 +1,21 @@
+.img-cover-post{
+    width:100%;
+}
+.page-title{
+    
+}
+
+.block_content{
+    h2{
+        margin-top:60px; 
+       
+    }
+}
 .block_example{
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+   
     h4{
         flex-basis:100%;
         font-weight: bold;
@@ -13,7 +27,7 @@
     li{
         overflow-y:hidden;
        list-style: disc;
-        border: 1px solid #f90;
+       
         img{
             margin-left:10px;
             float:right;

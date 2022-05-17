@@ -1,16 +1,15 @@
 
 #header_content{
     display: flex;
-    background: #ddd;
+    background: #eee;
+    border-radius: 5px;
     width:100%; 
     padding:5px;
     max-width: 1170px;
     justify-content: space-between;
     align-items: center;
     margin-bottom:20px;
-    h1{
-        float:left;
-    }
+
 }
 
 #footer_content{

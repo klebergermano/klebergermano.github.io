@@ -1111,6 +1111,9 @@ button.disqus-load {
   fill: currentColor;
 }
 
+.block_post_excerpt .img-cover-post {
+  display: none;
+}
 .block_post_excerpt h2 {
   display: none;
 }
@@ -1124,16 +1127,14 @@ button.disqus-load {
 
 #header_content {
   display: flex;
-  background: #ddd;
+  background: #eee;
+  border-radius: 5px;
   width: 100%;
   padding: 5px;
   max-width: 1170px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-}
-#header_content h1 {
-  float: left;
 }
 
 #footer_content {
@@ -1143,6 +1144,14 @@ button.disqus-load {
   width: 100%;
   height: 150px;
   max-width: 1170px !important;
+}
+
+.img-cover-post {
+  width: 100%;
+}
+
+.block_content h2 {
+  margin-top: 60px;
 }
 
 .block_example {
@@ -1158,7 +1167,6 @@ button.disqus-load {
 .ul_text_with_img_right li {
   overflow-y: hidden;
   list-style: disc;
-  border: 1px solid #f90;
 }
 .ul_text_with_img_right li img {
   margin-left: 10px;
