@@ -1,13 +1,12 @@
-<<<<<<< HEAD
 _site
 _site_ghpages
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-=======
 
 .*
 !.github
+.*
 !.gitignore
  _site_ghpages
 
@@ -16,6 +15,8 @@ _site_ghpages
 
 # jekyll debug
 _site
+
+Gemfile.lock
 
 # Jeykll Gemfile.lock
 Gemfile.lock
@@ -32,5 +33,4 @@ _site_ghpages
 .jekyll-cache
 .jekyll-metadata
 .jekyll-cache
->>>>>>> d1f82da06affa485428c4328b2b15581500034a1
 vendor
