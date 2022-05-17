@@ -1111,8 +1111,11 @@ button.disqus-load {
   fill: currentColor;
 }
 
-.posts_excerpts h2 {
+.block_post_excerpt h2 {
   display: none;
+}
+.block_post_excerpt .title_excerpt {
+  display: block;
 }
 
 #about_page span {
