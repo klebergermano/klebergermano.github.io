@@ -9,6 +9,7 @@ image: /assets/img/posts/o-que-sao-expressoes-regulares/o-que-sao-expressoes-reg
 lang: pt
 lang-ref:  "what is regex?"
 ---
+<img class='img-cover-post' src='/assets/img/posts/o-que-sao-expressoes-regulares/o-que-sao-expressoes-regulares-01.jpeg'/>
 
 
 Expressões Regulares (RegExp ou RegEx) são um conjunto de expressões formadas por símbolos que possibilitam a analise e edição de um conjunto de caracteres (Textos). permitindo a construção de filtros e edições automáticas de maneira mais simples e menos verbosa no que se diz respeito a programação.

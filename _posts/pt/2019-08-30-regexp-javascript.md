@@ -9,6 +9,7 @@ image: /assets/img/posts/regexp-javascript/regexp-javascript.jpeg
 lang: pt
 lang-ref: "RegExp in JS"
 ---
+<img class='img-cover-post' src='/assets/img/posts/regexp-javascript/regexp-javascript.jpeg'/>
 
 Expressões Regulares são padrões utilizados para a filtragem e modificação de resultados que utilizam metacaracteres na construção de suas expressões
 Ex. \* + ? $ ^ . () | \ { } [ ]

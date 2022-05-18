@@ -18,6 +18,7 @@ lang: pt
 lang-ref: 'Typing and Type Inference'
 ---
 
+<img class='img-cover-post' src='/assets/img/posts/tipagens-e-inferencias-de-tipo-em-programacao/tipagens-e-inferencias-de-tipo-em-programacao.jpg'/>
 
 ## Inferência de Tipo
 

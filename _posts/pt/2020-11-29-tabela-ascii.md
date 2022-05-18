@@ -9,6 +9,7 @@ image: /assets/img/posts/a-tabela-ascii/a-tabela-ascii-01.jpg
 lang: pt
 lang-ref:  "The ASCII Table"
 ---
+<img class='img-cover-post' src='/assets/img/posts/a-tabela-ascii/a-tabela-ascii-01.jpg'/>
 
 <!-- wp:paragraph -->
 <p>Em 1960 havia o problema de troca de informações entre os primeiros computadores, como solução foi proposto por Robert Willian Bemer e sua equipe ao ANSI (American National Standards Institute)  a criação de um padrão. assim surgiu o ASCII (American Standard Code Information Interchange)</p>
