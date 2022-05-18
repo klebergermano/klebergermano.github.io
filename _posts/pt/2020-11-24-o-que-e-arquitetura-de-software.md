@@ -8,6 +8,7 @@ image: /assets/img/posts/o-que-e-arquitetura-de-software/o-que-e-arquitetura-de-
 lang: pt
 lang-ref: 'what is architecture of software?'
 ---
+<img class='img-cover-post' src='/assets/img/posts/o-que-e-arquitetura-de-software/o-que-e-arquitetura-de-software.jpg'/>
 
 Arquitetura de Software começou a surgir no final dos anos 60 quando ciêntistas começaram a enfatizar a importância de se projetar e estruturar um software antes de se começar o seu desenvolvimento. <!--more-->tendo sida melhor definida e aceita no final dos anos 80 e inicio dos anos 90.
 O termo faz um paralelo com a "Arquitetura" que tem suas especificações de construção e projeto escritas em uma planta arquitetônica. Trazendo para o mundo do software basicamente seriam as nossas especificações do projeto e suas relações tecnológicas.

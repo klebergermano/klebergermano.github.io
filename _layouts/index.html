@@ -23,7 +23,7 @@ pagination:
     {% include post-meta.html post=post %}
   </p>
 
-      {{ post.excerpt}}
+      {{ post.excerpt | strip_html}}
        <!------------------------------------->     
       {% capture content_words %}
         {{ post.content | number_of_words }}

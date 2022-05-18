@@ -10,7 +10,7 @@ lang-ref: " What is the data types of JS?"
 categories: Javascript
 
 ---
-
+<img class='img-cover-post' src='/assets/img/posts/tipos-de-dados-javascript/tipos-de-dados-javascript.jpg'/>
 Em Javascript ou qualquer outra linguagem temos a necessidade de armazenas e manipular dados, informações, etc.
 Esses valores possuem os chamados "tipos", que são a categoria a qual uma informação pertence.
 

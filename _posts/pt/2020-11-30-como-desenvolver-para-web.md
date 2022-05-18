@@ -8,6 +8,7 @@ image: /assets/img/posts/como-desenvolver-para-web/como-desenvolver-para-web.jpg
 lang: pt
 lang-ref: "How to Develop for Web?"
 ---
+<img class='img-cover-post' src='/assets/img/posts/como-desenvolver-para-web/como-desenvolver-para-web.jpg'/>
 
 Como fazer um site? Como desenvolver sites? Como programar para web? Como diabos funciona isso tudo?!
 
